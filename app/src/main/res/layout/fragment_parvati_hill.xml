@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".parvati_hill">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/autour_one"
+            android:textStyle="bold"
+
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="Parvati"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/parvati1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Amongst the most famous ‘tekdis’ and hillocks in the town of Pune,
+ Maharashtra, Parvati Hill offers visitors gorgeous and stunning
+views of the surrounding valley. With a history dating back to almost
+250 years, Parvati Hill is famous for its temples and museums, in addition
+to being one of the oldest structures in Pune. "/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="
+
+
+
+Built in the early mid-17th century, the Parvati Hill Temple Complex can
+be found on Parvati Hill. The temple is located at the top of the hill and
+enshrines the idols of Lord Ganesha, Goddess Parvati, Lord Vishnu, Lord Karthikeya
+as well as Devateshwar. It is also said to have served as the sole place of worship
+ of the Peshwa rulers in the bygone eras.
+
+Situated at an elevation of almost 640 metres above sea level, it is
+also one of the most beautiful locations in the whole city of Pune and
+offers a great view of the entire city. One can reach the top of the
+hill simply by climbing 103 steps which are marked by specialised stone
+architectural works of the Maratha style.
+
+"
+
+            ></TextView>
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/parvati2"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="
+
+
+
+
+
+Moreover, the hillock also has the Parvati Museum, which boasts of age-old manuscripts,
+ rare weaponry and one-of-a-kind coins. Located near the museum are the Sati Monument and Vetal Chabutra.
+Additionally, the museum complex also houses the Samadhi Sthan of Shrimant Nanasaheb Peshwa.
+
+The Parvati Hill Temple Complex is one of the oldest heritage structures in the city, still serving
+as a gentle yet magnificent reminder of the rule of the Peshwas in the region. Many old legends suggest
+that Balaji Bajirao, the Peshwa ruler, used to watch the Battle of Kirkee and the subsequent defeat
+of the British from this hill.
+
+"
+
+            ></TextView>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.projectturbo.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/home_historybtn_to_history_list"
+            app:destination="@id/history_list" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.projectturbo.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.projectturbo.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/history_list"
+        android:name="com.example.projectturbo.history_list"
+        android:label="History"
+        tools:layout="@layout/fragment_history_list" >
+        <action
+            android:id="@+id/peths_cardView_to_peths_fragment"
+            app:destination="@id/peths_in_pune" />
+        <action
+            android:id="@+id/forts_cardView_to_forts_fragment"
+            app:destination="@id/forts" />
+        <action
+            android:id="@+id/museumCardView_to_museum_fragment"
+            app:destination="@id/museum" />
+        <action
+            android:id="@+id/hills_to_hills_fragment"
+            app:destination="@id/hills" />
+        <action
+            android:id="@+id/historical_places_to_historical_fragment"
+            app:destination="@id/historical_places" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/peths_in_pune"
+        android:name="com.example.projectturbo.peths_in_pune"
+        android:label="PETHS IN PUNE"
+        tools:layout="@layout/fragment_peths_in_pune" />
+    <fragment
+        android:id="@+id/forts"
+        android:name="com.example.projectturbo.forts"
+        android:label="FORTS"
+        tools:layout="@layout/fragment_forts" />
+    <fragment
+        android:id="@+id/museum"
+        android:name="com.example.projectturbo.museum"
+        android:label="MUSEUM"
+        tools:layout="@layout/fragment_museum" />
+    <fragment
+        android:id="@+id/hills"
+        android:name="com.example.projectturbo.hills"
+        android:label="HILLS"
+        tools:layout="@layout/fragment_hills" />
+    <fragment
+        android:id="@+id/historical_places"
+        android:name="com.example.projectturbo.historical_places"
+        android:label="fragment_historical_places"
+        tools:layout="@layout/fragment_historical_places" />
+</navigation>

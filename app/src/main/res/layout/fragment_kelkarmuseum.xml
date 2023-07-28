@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kelkarmuseum">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/autour_one"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="RAJA DINKAR KELKAR MUSEUM"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/kl1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="RAJA DINKAR KELKAR MUSEUM
+A CALL ANSWERED - A LEGACY BESTOWED :
+
+A minuscule lane, one among the many in the bustling, momentous city of Pune in Maharashtra, is home to Raja Dinkar Kelkar Museum, a rare anthology of Indian artifacts that echo myriad tales of a nostalgic legacy within the majestic archways and corridors.
+It is the one-man collection of Late Dr. D.G. Kelkar (1896 -1990). 'Kaka', as Dr. Kelkar was affectionately known dedicated his collection to the memory of his only son `Raja’ who died an untimely death. It is a collection about 22,000 priceless artifacts which mirror the everyday life of India. A testimony to man’s creative spirit - the spirit that breaths beauty into the banal, and puts romance into the mundane. Kaka was a man obsessed with art. A man who, for over sixty years, traveled extensively across the country - to obscure villages and tribal settlements, to grand temples and humble huts, to forgotten attics and folk fares - collecting .. always collecting."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/kl2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="During his school days mathematics was not his cup of tea but poetry certainly was. Late Dr. Dinkar Kelkar was an optician by profession and so also very much fond of history thus he pursued the Historical poetry rather than the Romantic one that most poets of his age pursued. He wrote poems under the anonymous “Adnyatwasi” and this was the starting point for getting interested in the collection of antiquities and art objects somewhere around 1920. The Museum was initially named as “Raja Sangraha” later as “Raja Kelkar Historical Collections” finally got named as “Raja Dinkar Kelkar Museum”. During this time the words “Museum” and “Antique” were hardly known to common Indians excepting perhaps some elite class. Dr. Kelkar is thus one of the pioneers of Indian Museums.
+
+A connoisseur who had an uncanny vision to spot the exotic in the everyday..... to uncover diamonds under the dust. The impressive Museum collection of 22,000 priceless artifacts recalls the historic Indian culture and traditions, which gently lead to more and more treasures. Creations in stone, wood, metal, ivory, fabric and clay that endure as the full realization of the human craftsmanship. A collection as varied as life itself is as awesome as man’s ingenuity. It is where each artifact reveals the powerful creative craft of its unknown creator, and where each object testifies to the passion and perseverance of Kaka Kelkar, A man who with a single - minded zeal, dedicated himself to the task of giving the arts and crafts of India the recognition, the respect and the immortality they deserve.
+
+Ever since the dawn of civilization, man has been acquainted with the ways of nature. He learnt to understand and adapt these things to his day-to-day implements. Indian culture has assimilated these forms of nature - trees, birds, animals, sky, earth, water, sea- in the course of its evolution and this becomes increasingly evident from our art, crafts, languages and religious rites. These works of Indian artisans and craftsmen inspired Dr. Kelkar to put together single-handedly the collection of artifacts and antiquities at Raja Dinkar Kelkar Museum."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/kl3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Every corner of the Museum bears testimony to an astounding individual passion for art collection: art that is not remote and detached from reality but an integral part of the day-to-day life of India's millions, art that highlights the characteristic Indian obsession of carving motifs out of the mundane, of seeking innovation in tradition. Late Dr. Kelkar was a man driven by an inner calling. His life mission was to gather the best of Indian folk art and craftsmanship, only to bequeath it to the world at large.
+
+Today, as we marvel at the man’s dedication, and applaud his herculean effort, we are invariably mesmerized by the magnitude and magnanimity of his superlative effort. He was a family man, wedded to customary commitments and responsibilities. Yet, he chose to be a nomadic, travelling across the country to singularly amass a priceless collection in a span of 60 years."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/kl4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The Museum contains variety of every day artefacts, which includes artefacts like Lamps, Palanquins, Carved Woodwork, Tin ware, Combs, Bowls, Stones, Hookahs, Locks, Spittoons, Musical Instruments, Miniature Paintings, Glass Paintings, lime containers, Intricately Carved Wooden Doors and Windows, Ancient Dwellings, Nut-cutters, Figurines, Bronzes, arms and armours, ivory, kitchen utensils, textile etc. The collection from this Museum reflects the elegance of Indian craftsmanship as well the vivid imagination of the artists. The Mastani Mahal rebuild in the premises of this Museum depicts the story of love between Bajirao Peshwa I and his beloved Mastani.
+
+Needless to say, this eternal voyage that has made the Museum one of the richest in folk art worldwide nearly drove his family to ruins at times, an endeavor that could only flourish on the kind support of family, friends and acquaintances. Fortunately, this he received and gratefully acknowledged. Risking his own stability to pursue his chosen goal, he inspired scores of committed souls to share his dream. This offbeat venture won the participation of elder brother the Late Dr. B. G. Kelkar, wife the Late Smt. Kamlabai Kelkar, only daughter Rekha Hari Ranade and son-in-law Late Dr. H. G. Ranade besides an army of well wishers and followers. No wonder, Dr. Kelkar's invaluable contribution to Indian heritage has been honoured by the Government of India and various other prestigious institutions and individuals worldwide. He has also been showered by generous acknowledgments from the national and international media alike. In a final selfless gesture, Late Dr. D.G. Kelkar donated his personal collection to the State Government of Maharashtra in 1975."/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/kl5"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shihagad">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/autour_one"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="SinhaGad"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/shinhagad"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Reminders of the historic battles of the Marathas follow you while you stumble across
+ the windswept ruins on the Sinhgad fort. This fort, 25 km outside Pune, is a beloved
+weekend spot of Punekars and Mumbaikars alike.
+
+Sinhgad is significant for the memorials of Tanaji Malusare and Chhatrapati Rajaram.
+ Rajaram, the younger son of Shivaji was the third coronated king of the Maratha Empire.
+Tanaji Malusare was a Maratha general who lost his life in the Battle of Sinhgad.
+
+In March 1640, Tanaji with the help of trained Iguanas and his handful trusted soldiers
+entered the impenetrable fort. Although Tanaji lost his life in the battle, his party recaptured
+the fort from the Mughals. Mourning the loss of his favorite general who fought like a lion, Shivaji
+changed the name of the fort from ‘Kondhana’ to ‘Sinhgad’.
+
+You will find a Bungalow of Lokmanya Tilak, one of the earliest progressive Freedom
+fighters of India on Sinhgad. Ancient spy holes, rugged stone gates, an ancient temple of
+Goddess Kali, a few abandoned cannons is all that remains of this legendary fort.
+
+They say that if you look carefully, you will find old coins scattered from the wealthier
+days of Sinhgad. You sit gazing into the beautiful, dangerous valleys and wonder how this
+place looked a few centuries ago.
+
+A meal consisting of Pithla-Bhakri (Bengal gram flour with fresh spices and Jowar bread)
+from one of the fort shacks is also one of the highlights of a visit to Sinhgad.
+Do not miss this favorite picnic spot, especially in the winters, when you can munch on
+sweet corn and have a memorable day with your pals.
+
+You can take a cab or travel the way trek lovers do, you will be bewitched by the
+pristine aura of this place. Breathtaking views of the Panshet and Khadakwasla dams,
+layers of green velvet on all the hills around, Sinhagad is as it was hundred years ago."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/sinhagad"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Start early in the morning if you are going to trek to the top.
+Carry a stick with you, for balancing while hiking.
+It can get pricky cold in the mornings, carry warm clothes.
+Be careful during monsoons, the roads get very slippery.
+Experience the food at the local shacks. The Kanda bhaji and Pithla Bhakri are mouth-watering.
+Do not consume alcohol or any other intoxicating substances in the area.
+Do not litter or vandalize the structures.
+Sinhgad is a fort widely climbed by Trekkers. Many people gather here for celebrations on 19th February, Shivaji’s birth anniversary.
+
+\n
+\nState Transport buses from Swargate and Shaniwarwada fort.
+\nAwasre Wadi bus stop
+\nIt is recommended to go on your own vehicle.
+
+
+"
+
+            ></TextView>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

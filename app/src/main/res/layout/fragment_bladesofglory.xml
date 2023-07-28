@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bladesofglory">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/autour_one"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="BLADES OF GLORY CRICKET MUSEUM"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/b2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The Blades of Glory Cricket Museum was formally inaugurated by Sachin Tendulkar in 2012. It is located on the third floor of a residential building and is home to over 12,000 cricket accessories. The museum is owned, curated, and funded by Rohan Pate, a former Under-19 cricketer himself. It is divided into four small rooms and a larger room with banners and cricket equipment that belonged to the Indian Cricket Team. The four small rooms are dedicated to record-making cricketers. The larger room houses different types of equipment and highlights India's World Cup wins.
+
+Spread over 4,000 square feet, the museum houses autographed bats, balls, shoes, pads, jerseys, and so on, from some of cricket’s greatest cricketers. There is a room specially dedicated to Sachin Tendulkar and Virat Kohli, each containing a detailed record of their cricketing careers, including scores, awards, uniforms, equipment, etc. Artefacts from international cricketers like Chris Gayle and Sanath Jayasuriya are also included. Rare items, like caps that belong to former cricketers, torn shoes from iconic balling moments, etc., are also preserved here. The museum boasts of personal visits from cricketers from all over the world. The pictures and posters of these cricketers have been specially signed by them during their visit. Upon entrance, visitors are shown a video that documents the journey of the museum very well. "/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/b5"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="From Clive Lloyd’s West Indies in 1975 to Eoin Morgan’s England in 2019, the gallery displays bats signed by each of the 12 World Cup-winning teams.
+More than 51000+ Memorabilia from players all over the world"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/b3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Signed bat of all World Cup Winning Captains
+Signed bat of former Australian cricketer Sir Neil Harvey.
+Bats signed by triple centurian like Lara,Sehwag,Jaysurya,Amla,Kumar Sangakkara.
+Similarly, all three World Twenty20 champion teams – India (2007), Pakistan (2009) and England (2010) – have signed bats which are displayed at the gallery.
+The trouser that Sachin Tendulkar wore when he scored his 50th Test century; Muttiah Muralitharan’s jersey on the day he became the only cricketer to surpass the Mount 800 in Test cricket and Virender Sehwag’s jersey that helped him get a memorable double ton against Sri Lanka in 2010.
+Personal cricket gear signed by greats including Desmond Haynes,Gordon Greenidge(West Indies), Mark Waugh,Allan Border (Australia), Kevin Pietersen (England,) Sourav Ganguly,Kapil Dev, Mahendra Singh Dhoni, Yuvraj Singh (India).
+The West Indies cap of Malcolm Marshall, the great West Indies fast bowler who died of cancer in 1999; Sir Vivian Richards’ sweater during his playing days; Australia’s World Cup-winning opening batsman David Boon’s ODI jersey and an autographed bat of former Pakistan great Javed Miandad.
+The Legend’s Room displays autographed cricketing gear of Sachin Tendulkar, Rahul Dravid, Sir Vivian Richards, Jacques Kallis and Ricky Ponting along with a Golden Century frame that includes a golden bat signed by the greatest of all batsmen, Sir Donald Bradman.
+Cricket bat with which Saeed Anwar scored 194 against India On 21 May 1997 in Chennai.
+World Cup 2019 collection. Bats, balls and jersey of players all around the world."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/b1"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

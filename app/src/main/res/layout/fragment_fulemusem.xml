@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fulemusem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/autour_one"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="MAHTMA PHULE MUSEUM"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/ph1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The Mahatma Phule Vastu Sangrahalaya was first established in 1890 as the Poona Industrial Museum. Later, it was renamed to Lord Reay Museum, before being called Mahatma Phule Museum in 1968. Though Mahatma Jyotiba Phule was a great Indian social reformer who worked extensively for the anti-caste movement and women's emancipation, the museum does not have anything to do with him. It displays models, charts, pictures, machines, and taxidermy of various wildlife species. It broadly covers the disciplines of forestry, agriculture, natural history, armoury, handicraft, geology, engineering, industries, and architecture in Indian history."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/ph2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="While the armoury belongs to the Mughal and Maratha periods, the taxidermy section covers a vast expanse of evolution in Indian species of animals, reptiles, and birds. Several hydro-electric and irrigation projects, in addition to models of architectural marvels like the Taj Mahal, have also been displayed.
+
+The museum has a library, though it is not accessible to the public. A lot of the museum’s transformation, historically, has been attributed to Mr B. V. Gharpure, who was its director from 1930 to 1954. The responsibility of the museum’s upkeep has been given to the Pune Municipal Corporation and is funded by the entry fees that visitors pay at the museum."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/ph3"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".peths_one">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:padding="20dp">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20sp"
+           android:fontFamily="@font/autour_one"
+           android:text="Name of the Peth Who founded the Peth and Year in which it was founded"
+           android:textSize="24sp" />
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="350sp"
+           android:src="@drawable/pe1"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20sp"
+           android:fontFamily="@font/audiowide"
+           android:text="Kasba Peth : Rashtrakuta kings in the 5th century\n
+\nGuruwar Peth : Shahaji Raje 1625\n
+\nSomwar Peth : Dadoji Konddev 1636\n
+\nMangalwar Peth : Dadoji Konddev 1637\n
+\nShukrwar Peth : Nilopant Mujumdar 1670\n
+\nRaviwar Peth  : Nilopant Mujumdar 1670\n
+\nShaniwar Peth : Moropant Pingale 1675\n
+\nBhavani Peth : Sambhaji Maharaj 1682
+The name is derived from the temple of Bhavani Mata\n
+\nGhorpade Peth : Senapati Santaji Ghorpade 1692 in his memory\n
+\nWednesday Peth : Aurangzeb 1703\n
+\nGanesh Peth : Sakharambapu Bokil Name of Ganesha after 1748\n
+\nSadashiv Peth : Sadashivrao Peshwa 1757 in his memory\n
+\nNarayan Peth : Narayanrao Peshwa 1770 in his memory\n
+\nRasta Peth : Sardar Rasta 1780 in his memory\n
+\nNana Peth : Nana Fadnavis 1783 in his memory\n
+\nGanj Peth : (now called Mahatma Phule Peth)
+In memory of Mahatma Phule after 1818 by the British government\n
+\nSince Navi Peth was newly established by the British government after 1818"
+           android:textSize="18sp"
+           android:textStyle="bold" />
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="350sp"
+           android:src="@drawable/pe"/>
+
+
+
+   </LinearLayout>
+</ScrollView>

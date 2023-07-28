@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Project Turbo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="one">FIRST</string>
+    <string name="two">SECOUND</string>
+    <string name="three">THIRD</string>
+    <string name="four">FOURTH</string>
+    <string name="five">FIFTH</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="history_tab_1">Origin Of Peths</string>
+    <string name="history_tab_2">Peths</string>
+
+    <string name="fort_one">Shiha Gad</string>
+    <string name="fort_two">Raj Gad</string>
+    <string name="fort_three">Jadhav Gad</string>
+
+    <string name="museum_one">Blades of Glory Museum</string>
+    <string name="museum_two">Mahtma Phule Museum</string>
+    <string name="museum_three">Peshwe Museum</string>
+    <string name="museum_four">Raja Dinkar Kelkar Museum</string>
+    <string name="museum_five">Southern Command Museum</string>
+
+    <string name="hills_one">Taljai</string>
+    <string name="hills_two">Parvati</string>
+
+    <string name="historical_one">Vishrambag Wada</string>
+    <string name="historical_two">Shaniwar Wada</string>
+    <string name="historical_three">Lal Mahal</string>
+    <string name="historical_four">Nana Wada</string>
+    <string name="historical_five">Shitole Wada</string>
+    <string name="historical_six">Bhuleshwar Temple</string>
+
+
+</resources>

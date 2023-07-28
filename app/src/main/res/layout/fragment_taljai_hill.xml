@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".taljai_hill">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/autour_one"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="Taljai Tekdi"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/taljai1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Maharashtra is blessed with a number of picturesque travel
+destinations that has a magnetic pull to nature lovers and
+adventure enthusiasts. Whether it is the verdant hills or
+dense forests, monsoon adds a mystical charm to these places
+when they look rejuvenated and green. "/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/taljai"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="
+
+
+
+Taljai Hills is a popular weekend getaway in the city
+of Pune, which is a favourite of tourists for its abounding
+natural beauty and exotic fauna. Tucked in the Western Ghats
+with a pleasant climate virtually round the year, the place
+has a number of attractions for environmentalists and shutterbugs.
+ The open forest area provides a relaxing haven for morning and evening walks.
+
+"
+
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="
+
+
+
+
+
+During your trip you can spot number of migratory birds,
+ rare species of butterflies, peacocks and rabbits in their natural
+habitat. The temple area is well maintained with paved sitting area
+where travellers can sit and rest for a while. En route the Taljai
+Mata temple you will come across a pond where you can see ducks
+ swimming in playful moods."
+
+            ></TextView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/taljai2"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="
+
+
+
+
+
+It is a rare sight to delight! Taljai Hills is a perfect
+spot for outdoor picnic and excursions where you can be
+one with nature and unwind your fetters for some time.
+From the temple top, you can enjoy a 360 degree panoramic
+view of the Pune city at the backdrop of the emerald green Western Ghats.
+
+
+"
+
+            ></TextView>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

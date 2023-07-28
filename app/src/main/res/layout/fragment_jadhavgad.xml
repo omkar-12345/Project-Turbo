@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jadhavgad">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/autour_one"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="Jadhav Gad"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/jadhavgad"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Maharashtra's only Fort Heritage hotel, Fort Jadhavgadh Hotel and Resort is
+a must visit to experience unparalleled luxury.
+
+Spread across 25 acres, features within the heritage hotel include:
+
+Comfortable and lavish accommodations (including tent accommodations)
+A temperature controlled swimming pool
+A beautifully decorated and furnished dining area
+An in house spa
+An in house museum
+Other activities at Fort Jadhavgadh include Ghazal Nights and a gripping Daan Patta show."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/jadhavgad1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Please call up the authorities and inform them before visiting the fort.
+If you intend to stay at the resort, booking a room/ tent in advance is recommended.
+Please check the official website for accommodation tariffs.
+
+ITI Bus stop
+Dhume Wadi bus stop
+
+Fort Jadhavgadh Address: Hadapsar Saswad Road, Jadhavwadi, Pune, Maharashtra 412301, India
+Fort Jadhavgadh Contact Number: +91-2115305200
+Fort Jadhavgadh Timing: 09:00 am - 06:00 pm
+Best time to visit Fort Jadhavgadh(preferred time): 08:00 am - 12:00 pm
+Time required to visit Fort Jadhavgadh: 07:00 Hrs
+
+"
+
+            ></TextView>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

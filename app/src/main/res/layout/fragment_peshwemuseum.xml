@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".peshwemuseum">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/autour_one"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="PESHWE MUSEUM PARVATI"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/p1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The history and heritage of the Peshwa family in Maharashtra has been preserved in the museum at Peshwawada on the hill.
+
+The Peshwa's palace on the hill was built in 1795 by the wealthy Nanasaheb Peshwa. Today, part of it has been converted into a museum of Peshwa art. These artefacts have been obtained mainly from the Peshwa palace. It includes all the weapons, clothes, utensils, ornaments, furniture, musical instruments and palanquins associated with the Peshwa rulers. According to historical events and family map of Peshwas, there are pictures of Maratha leaders like Bajirao Peshwa, Mastani, Nanasaheb Peshwa, Chimajiappa Peshwa, Balaji Vishwanath. The museum also has medieval manuscripts related to the Peshwas, as well as some old and rare photographs of the city of Pune."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/p3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The museum also houses a large collection of coins and coins used during the Peshwa, Mughal and British eras in India. Some of these coins are extremely rare and valuable.
+
+The Samadhi of Rich Nanasaheb Peshwa, who lost both his son and brother in the Third Battle of Panipat, is near the museum. That side part has been renovated and converted into a hall. It depicts many battles fought by the Marathas. Sardar Bhuskute of Burhanpur in Madhya Pradesh and the palace of local landlords are also a part of this museum.
+
+The museum is open from 4:30 pm to 9 pm. Entrance fee is Rs. 10 each."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/p2"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/p4"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

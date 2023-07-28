@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SouthernCommand">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/autour_one"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="SOUTHERN COMMAND MILITARY MUSEUM"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/s1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The National War Memorial Southern Command in Pune was inaugurated on 15th August, 1998. The museum houses artefacts related to the Indian Army, Navy and Air Force.
+
+National War Memorial Southern Command is located in Ghorpadi area of ​​Pune. It is dedicated to the three branches of the Indian Army, the Army, the Navy and the Air Force. The museum was established in 1997. However, it was opened on 15th August, 1998 during the tenure of Brigadier Madan Gopal, Chairman, Pune Cantonment Board. This memorial museum has been created by the citizens of Pune by raising funds under the Express Citizen Forum and is the first of its kind in Asia. Initially, it was limited to the Indian Army. However, in 2009 it was created for the three divisions of the Armed Forces with the addition of some artefacts."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/s2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The main attraction of this museum is this monument in the form of a 25 feet high pillar. On this pillar are the names of the martyrs who lost their lives for our country. The museum houses a collection of weapons, military uniforms, rockets, tanks, ships, locomotive scale models and some soldiers' memorabilia. Other attractions at the museum include the MiG-23BN jet fighter, which was used during the Kargil war. There is also a replica of INS Trishul, who fought in the Goa Liberation War and the 1971 Indo-Pakistani War. Other notable models of the tank include T-55, Vijayant, captured Pakistani Patton tanks.
+
+Here is a collection of rare and old photos from World War I, as well as military ammunition. Apart from the exhibits representing the Indian Army, tourists can also see the military history of the Marathas in the museum."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/s3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The museum is managed by the Pune Cantonment Board. Infrastructure is frequently enhanced by the board. The most recent addition is a light and sound show every Saturday at 5:40 pm. The show is also held twice a year at the National Defense Academy in Pune and the Indian Military Academy in Dehradun. Since 2019, it has been presented in this museum every week. Along with this event, a weekly parade is held to pay homage to the brave martyrs of India. Both the event and the parade last about 65 minutes. The program highlights the contributions and sacrifices made by the military in shaping and defending the nation from independence to the present day.
+
+The museum is open from 9.30 am to 12.30 pm and from 3 pm to 7 pm. It is open all day of the week except Tuesdays. Admission is free, but there is a charge of Rs 20 for a light and sound show."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/s4"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/s5"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
