@@ -9,6 +9,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:padding="15dp"
+        android:background="#37AEE4"
+        android:backgroundTint="#FEFBDE"
+        android:backgroundTintMode="multiply"
         >
 
 
@@ -34,6 +38,7 @@
             android:layout_marginTop="20sp"
             android:fontFamily="@font/audiowide"
             android:textSize="18sp"
+            android:textColor="@color/white"
             android:text="
 
 Dedicated to Lord Shiva, Bhuleshwar is an ancient Hindu temple located around 50 kilometres from Pune.
@@ -51,6 +56,7 @@ has accepted your offerings!
             android:textStyle="bold"
             android:layout_marginTop="20sp"
             android:textSize="18sp"
+            android:textColor="@color/white"
             android:text="
 
 Other contact number is +91 9975601144.
@@ -77,15 +83,9 @@ Best time to visit Bhuleshwar Temple(preferred time): 08:00 am - 05:00 pm\n
 Time required to visit Bhuleshwar Temple: 01:00 Hrs \n
 
 
-
-
 "
 
             ></TextView>
-
-
-
-
 
     </LinearLayout>
 </ScrollView>

@@ -8,7 +8,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="#37AEE4"
+        android:backgroundTint="#FEFBDE"
+        android:backgroundTintMode="multiply"
+        >
 
 
         <TextView
@@ -18,12 +23,14 @@
             android:textStyle="bold"
             android:layout_marginTop="20sp"
             android:textSize="24sp"
+
             android:text="GUPCHUP GANAPATI TEMPLE"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="350sp"
-            android:src="@drawable/gp1"/>
+            android:src="@drawable/gp1"
+            />
 
         <TextView
             android:layout_width="wrap_content"
@@ -32,6 +39,7 @@
             android:textStyle="bold"
             android:layout_marginTop="20sp"
             android:textSize="18sp"
+
             android:text="\t\tGupchup Ganpati Devasthan Pati."/>
 
         <TextView
@@ -41,6 +49,8 @@
             android:textStyle="bold"
             android:layout_marginTop="20sp"
             android:textSize="18sp"
+            android:textColor="@color/white"
+
             android:text="There are many small and big temples to visit in Pune city. You can also see some ancient temples in Pune, but during the Shiva period and
 You can also see Peshwa temples. We saw such a beautiful temple in Shaniwar Peth in Pune in North Peshwa
 Gets. This temple is called 'Varadamurti Devasthan'. People around this Ganapati are known as 'Gupchup Ganapati'.
@@ -60,6 +70,8 @@ We turned around and saw in front of us a stone window entrance with 'Gupchup Ga
             android:textStyle="bold"
             android:layout_marginTop="20sp"
             android:textSize="18sp"
+            android:textColor="@color/white"
+
             android:text="This temple is located in Shaniwar Pethe. The beautiful stone frame of this temple would have gone inside through the entrance of Dindi Darwaza
 Inside, you can see porches on both sides. From here go down three stone steps and enter a small beautiful courtyard to the left
 You can see the beautiful Ganapati temple facing north. There is also a house next to this temple. Want to see this temple
@@ -81,6 +93,8 @@ As he offered this temple to the initiates, this Ganapati will get the name 'Gup
             android:textStyle="bold"
             android:layout_marginTop="20sp"
             android:textSize="18sp"
+            android:textColor="@color/white"
+
             android:text="While constructing a very beautiful and fully wooden pavilion, ‘Mr.
 Fine wood was brought and the entire wooden pavilion was built in I.S. Built in 1894. In this wooden assembly hall you will find the famous painter Shri Raja
 There you can see frames of pictures drawn by Ravi Varma. Two storey hall, high wooden ceiling, tall wooden pillars as well
@@ -99,6 +113,8 @@ We also get to see the rare lamp pots and chandeliers now."/>
             android:textStyle="bold"
             android:layout_marginTop="20sp"
             android:textSize="18sp"
+            android:textColor="@color/white"
+
             android:text="There is a quadrangular idol of 'Shri Varad Ganapati' in the gabhara of the temple. Although the original idol of 'Shri Ganapati' is about 9 inches high, now on that idol
 You can see that her height has increased due to the application of vermiculite. The idol of 'Shri Varad Ganapati' is quadrilateral
 The hand is in Abhayamudra and in the lower right hand we see Modak. We also have Ganpati's Sondson on this Modak
@@ -127,6 +143,8 @@ It is said. The temple was not damaged in the floods of 1961, even though the te
             android:textStyle="bold"
             android:layout_marginTop="20sp"
             android:textSize="18sp"
+            android:textColor="@color/white"
+
             android:text="In the month of Shri Varad Ganapati, daily Panchamrut Puja, in the month of Magh, the birth of Ganesha and the month of Bhadrapad are celebrated with great enthusiasm.
 During the Bhadrapad and Magh festivals, ‘Shri Varad Ganpatis’ is planted with vermiculite. These are beautiful wooden halls and stone pavilions as well as shami trees
 The beautiful temple cost makes you fall in love. This beautiful temple located in a very crowded place in Pune is always worth visiting
@@ -134,20 +152,6 @@ Because of the silence. The temple of ‘Shri Varad Ganapatiche’ in North Pesh
 "/>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     </LinearLayout>
-
-
 
 </ScrollView>
