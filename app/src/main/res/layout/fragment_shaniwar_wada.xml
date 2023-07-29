@@ -1,14 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".shaniwar_wada">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/autour_one"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="Shaniwar Wada"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/shaniwar_wada"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Shaniwar Wada is one of the historical monuments  famous Landmarks in Pune.
+The seat of Indian politics in the Peshwa period, it has become a symbol of Maratha glory.
+It is an expansive, charming palace with gardens and fountains.
+
+It was originally built as the residence of Peshwas, the great generals of the Maratha Empire.
+The foundation was laid by Bajirao I in 1730 AD.
+There is an interesting anecdote about how this place was chosen for construction.
+The story says that Bajirao saw a rabbit chasing a dog here
+and decided that it was the best to build a palace that would never face defeat.
+ What he believed almost came true, until 1818 when the Peshwas surrendered to the British."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/shaniwar_wada1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="
+
+
+
+The building was nearly destroyed in an unexplained fire in 1828. It has five gates
+and nine bastions that enclose this majestic building. You can now see the teak tracery on
+the pillars, polished marble, ornamental exquisitely carved arches and impressive fountains.
+On your visit to Shaniwar Wada, you can see the traces of its golden years.
+
+A statue of Bajirao I, the undefeated Maratha general adds beauty to the area.
+This architectural marvel is one of the must-see attractions in Pune.
+
+You can opt for guided tours here, along with a very minimalistic
+entrance fee to understand the history behind the place.
+
+
+
+
+"
+
+            ></TextView>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

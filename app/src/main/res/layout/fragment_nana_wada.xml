@@ -1,14 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".nana_wada">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/autour_one"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="Nana Wada"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/nana_wada"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="@font/audiowide"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Built in 1780 by Nana Phadnavis, the chief administrative officer of the Peshwas, the Nana
+wada is one of the oldest heritage sites in the city which is a glimpse of the Peshwa age.
+The Nana wada is located close to the Shaniwar wada next to Vasant theatre.
+
+Nana Phadnavis served the Maratha dynasty for a long time under four rulers in succession.
+After the death of Madhavrao Peshwa, the Maratha empire sustained its glory and grew in power
+ under the leadership of Nana Phadnavis. One can see original architectural features still
+intact at Nana wada.
+
+Pune’s Deccan Education Society began operating the New English School in this wada in 1907.
+As part of their expansion, a building was also built for the school. The colonial influence
+on the architecture of the building is clearly visible and makes the wada visually interesting."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/nana_wada1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="
+
+
+
+ Nana wada is made largely of timber, and has arches among other decorations. The balconies
+have wooden railings, the timber ceiling has a carved pattern running across it, and the columns
+in the front room are shaped like cypress trees. The faded wall paintings are hardly visible now.
+
+The balcony of the wada has a dome shaped ceiling. The wooden architecture highlights the royal
+status of the wada. The first floor still has the ‘Diwan-Khana’ (court house) and a veranda with
+paintings on the walls. The finely carved wooden ceiling, arches, cypress-shaped pillars and motifs
+of the banana flower amazes a visitor. The wada also has an emergency exit provision with an escape
+ stairway in the wall that leads one out of the wada.
+
+Nana, being the Peshwa’s administrative officer, used the ancient ‘Modi’ script, transcribed
+ and maintained their records of accounts and administrative letters.
+
+The wada currently houses a municipal school and a municipal office of old records.
+Restoration of some parts has been undertaken to bring back the wada’s glory. Nana also
+built another wada at Menavali near Wai, which is considered to be the perfect example
+of wada architecture.
+
+
+
+
+"
+
+            ></TextView>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -9,21 +9,17 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-public class SectionsPagerAdapterHP extends FragmentPagerAdapter {
+public class SectionsPagerAdapterCT extends FragmentPagerAdapter {
+
     @StringRes
     private static final int[] TAB_TITLES = new int[]{
-            R.string.one,
-            R.string.two,
-            R.string.three,
-            R.string.four,
-            R.string.five,
-            R.string.six,
-
+            R.string.history_tab_1,
+            R.string.history_tab_2
 
     };
     private final Context mContext;
 
-    public SectionsPagerAdapterHP(Context context, FragmentManager fm) {
+    public SectionsPagerAdapterCT(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }
@@ -33,21 +29,10 @@ public class SectionsPagerAdapterHP extends FragmentPagerAdapter {
         Fragment fragment = null;
         switch (position)
         {
-            case 0:fragment=new vishrambag_wada();
+            case 0:fragment=new peths_one();
                 break;
-            case 1:fragment=new shaniwar_wada();
+            case 1:fragment=new peths_two();
                 break;
-            case 2:fragment=new lal_mahal();
-                break;
-            case 3:fragment=new nana_wada();
-                break;
-            case 4:fragment=new shitole_wada();
-                break;
-            case 5:fragment=new bhuleshwar_temple();
-                break;
-
-
-
         }
         return fragment;
     }
@@ -61,6 +46,6 @@ public class SectionsPagerAdapterHP extends FragmentPagerAdapter {
     @Override
     public int getCount() {
 
-        return 6;
+        return 2;
     }
 }

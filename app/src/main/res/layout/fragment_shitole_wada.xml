@@ -1,14 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".shitole_wada">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/autour_one"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="Shitole Wada"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/shitole_wada1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The original owner of this historic building is Raja Rajendra Shitol Raja,
+a descendant of the Sisodia dynasty. These clans came from the north and became
+local about twelve hundred years ago, and for many centuries they had uninterrupted
+national rights. He was the rewarder of about 350 villages like Pashan, Lavale,
+Hadapsar, Wanwadi, Manjari, Moshi in Pune area.  Even today, in the 21st century,
+ the records of Shitole Deshmukh as the owner of land are drawn from those villages.
+
+The land used to built Shaniwarwada in Pune was the agricultural land of Sardar
+Shitole Deshmukh.  The land was given to the Peshwas by the Shitole government
+for the construction of Shaniwarwada, in return for which they were granted bail at Baner and Javalarjun."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/shitole_wada"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="
+
+
+
+Later, Sardar Shitole's Jahagiri extended to Hoshangabad, Shahazabad, Khandwa,
+Sonpat, Panipat, Narwar, Ujjain, Gwalior etc. districts of Madhya Pradesh and
+to Khandesh along with Satara, Pune, Ahmednagar, Nashik districts of Maharashtra.
+
+A person from this family had a vision of Narasimha in this Vastu.
+Hence God Narasimha is the deity of this family
+
+Ganpati Mandir, 73/A, Ramganesh Gadkari Path, Near Shree Kasba, Yashodatta Housing Society, Kasba Peth, Pune, Maharashtra 411011
+
+
+
+
+
+"
+
+            ></TextView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

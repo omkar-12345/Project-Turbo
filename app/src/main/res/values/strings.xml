@@ -12,6 +12,7 @@
     <string name="three">THIRD</string>
     <string name="four">FOURTH</string>
     <string name="five">FIFTH</string>
+    <string name="six">SIXTH</string>
 
 
     <string name="menu_home">Home</string>
@@ -42,6 +43,12 @@
     <string name="historical_four">Nana Wada</string>
     <string name="historical_five">Shitole Wada</string>
     <string name="historical_six">Bhuleshwar Temple</string>
+
+    <string name="Temples_one">Gupchup Ganpati</string>
+    <string name="Temples_two">Parvati Temple</string>
+    <string name="Temples_three">Pataleshwar Temple</string>
+    <string name="Temples_four">Trishunda Ganpati</string>
+    <string name="Temples_five">Sheshshayi Vishnu</string>
 
 
 </resources>

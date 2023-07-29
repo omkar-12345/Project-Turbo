@@ -16,7 +16,7 @@ import com.example.projectturbo.ui.home.HomeFragment;
 
 public class history_list extends Fragment {
 
-    CardView peths,forts,museum,hills,historical_places;
+    CardView peths,forts,museum,hills,historical_places,temples;
 
 
     @SuppressLint("MissingInflatedId")
@@ -74,6 +74,16 @@ public class history_list extends Fragment {
                 NavHostFragment.findNavController(history_list.this).navigate(R.id.historical_places_to_historical_fragment);
             }
         });
+        temples = root.findViewById(R.id.temples);
+
+        temples.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to the Historical Places fragment
+                NavHostFragment.findNavController(history_list.this).navigate(R.id.temples_to_temples_fragment);
+            }
+        });
+
 
 
         return root;

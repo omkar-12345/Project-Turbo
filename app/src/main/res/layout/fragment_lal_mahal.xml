@@ -1,14 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".lal_mahal">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
 
-</FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/autour_one"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="Lal Mahal"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/lal_mahal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="@font/audiowide"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="
+This Childhood Residence of Chhatrapati Shivaji Maharaj is located at
+the heart of Pune City. This building is reconstructed on same location
+and holds a special place in hearts of all admirers of Shivaji Maharaj.
+
+Pune Municipal Corporation have prepared a Master Plan to develop LAL
+MAHAL as the main Tourist attraction and inspiration to the new generation.
+
+
+"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="
+
+
+The campus will have various galleries depicting life  values of
+Chhatrapati Shivaji Maharaj.
+
+The main entrance is designed like the grand entrance of Shiv -
+Kalin Forts. You enter in the open landscaped area with statue of
+Bal Shivaji and Jijamata ploughing the land. The building fascade
+is modified on lives of Shiv - kalin architectural vocabulary.
+"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/lal_mahal1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="
+
+The open to sky gallery at ground floor will showcase  murals depicting
+Shivaji Maharaj's administration skills. Hall at Ground floor of the building
+houses statue of Jijamata which is worshiped by many people.
+
+The first floor  hall will have paintings depicting main events in life
+of Shivaji Maharaj including the episode of Shahista Khan which happened
+at this location. Also you can see collection of Weapons, Cloths, Coins,
+Utensils, letters from Shivaji Maharaj’s era.
+
+
+
+"
+
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="
+
+
+
+The newly developed Terrace Gallery will display information about major
+forts built by Shivaji Maharaj with stress on Forts around Pune.
+
+Thus Lal Mahal will recreate and provide virtual experience of various
+facets of the glorious Life of the Great Shivaji Maharaj.
+
+
+"
+
+            ></TextView>
+
+
+    </LinearLayout>
+</ScrollView>

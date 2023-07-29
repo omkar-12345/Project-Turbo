@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pataleshwar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/autour_one"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="PATALESHWAR TEMPLE"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/pt1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The Pataleshwar Caves, also referred to as the Panchaleshvara temple or Bhamburde Pandav cave temple, are a 8th century rock-cut Hindu temple from the Rashtrakuta period located in Pune, Maharashtra, India. Dedicated to Shiva, it was a monumental monolithic excavation with a notable circular Nandi mandapa and a large pillared mandapa. It is a temple of three rock-cut cave sanctums, likely dedicated to Brahma-Shiva-Vishnu originally, but currently to Parvati-original Shiva-Ganesha. A garden now surrounds the site, new idols have been placed elsewhere in the complex. The interior of the caves have suffered damage from vandalism. Outside, the monument shows the effects of natural elements over the centuries.
+
+The Pataleshwar temple is a protected monument of India and managed by the Archaeological Survey of India.
+"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/pt2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The Pataleshwar Caves are in the northern side of Pune, on a rocky hill immediately west of the sangam (confluence) of the Mula and Mutha rivers – sites recommended for temples in historic Sanskrit texts on temple architecture. Surveys of this site done in the 19th-century refer to it as the 'Panchaleshvara cave', 'Bhamburde caves of Pune', 'Pandoo caves', or 'Panchaleshvara temple' ; they mention it to be situated in a village north of Pune. However, as the Pune city has grown, this site is now a part of Shivajinagar (Pune), surrounded by urban structures. The Pataleshwar caves are about 150 kilometres (93 mi) from Mumbai
+
+he Pataleshwar caves are a monolithic excavation of a rocky hillock that gently swells and forms the terrain here. Its entrance is about a 20 feet long path from the east of the complex. It was originally an excavated tunnel but one that collapsed. It was, for a period, restored with a masonry. The path leads into an open court that is nearly a square (95 feet at its maximum in north-south, by 90 feet across east-west).
+
+The floor of this open mandapa was cut into the rock. It features a circular shape Nandi mandapa, all cut out of the original rock to monolithically reveal the Nandi shrine and the Nandi. This mandapa had sixteen pillars, twelve along the circumference and four inside to support the roof of the Nandi mandapa. However, four of the eastern pillars and the roof above they supported is now lost.[4] The shilpins (artists) cut the floor around the Nandi mandapa to provide for an annular cistern about 2 feet deep, one that likely held any liquids used to wash or ceremonially rinse the Nandi. The Nandi sits on a pedestal, also monolithically carved out of the natural rock.[4]
+
+The covered part of the Pataleshwar site is a large nearly square mandapa, a bit smaller in size than the open court with the Nandi mandapa. The facade consists of eight pillars and two pilasters. There are five rows of these pillars, with an eight feet aisle, while the cave walls have pilasters, all monolithically excavated from single rock. The sanctums open to the east, and have a pradakshinapatha carved out (circumambulation passage) around the three sanctums. A notable feature of the sanctums area of this complex is that it is at a lower level, cut deeper into the ground. It is this 'underworld' symbolism that gives this site its name – Pataleshwar (many temples in India with deep-in-the ground sanctums are also called Pataleshwar)."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/pt3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="A set of steps, flanked with two couchant stone tigers carved in-situ, provide entry into the covered mandapa. Between the third row and the fourth row of pillars, in the front of the sanctums, is another small Nandi hewn in-situ, thus re-affirming that this was a Hindu Shaivism site from its origins. The three sanctum caves total to about 39 feet long and 27.5 feet deep. The central shrine has a rock-cut Mahadeva Panchalesvara linga (original), while the cella on its side have space for statues.The original statues are lost, and were likely of Brahma on one side, Vishnu on the other.Sometime before the mid-19th century, these were reclaimed with the addition of a Parvati statue and a Ganesha statue.
+
+The caves have remains and traces of reliefs, most of which is now lost. Of what can be identified, include Saptamatrikas (Shaktism), Gajalakshmi, Tripurantaka, Anantasayin (Vaishnavism) and Lingodbhava."/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/pt4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The complex includes a small side shrine for Durga.
+
+Contemporary additions
+The 19th-century survey reports mention a damaged drainage system, which caused rain water to flood the caves for many months of the year. The ASI has attempted to correct this.
+
+The complex of the cave is a part of a 19th-century community garden as reported in the earlier colonial era survey reports. This garden is now more elaborate. There are a few recovered architectural ruins stored in it. The Pune office of the Archaeological Survey of India is located in the adjacent property."/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/pt5"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/pt6"/>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
