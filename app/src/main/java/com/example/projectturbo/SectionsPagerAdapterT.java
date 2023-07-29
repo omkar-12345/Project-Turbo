@@ -2,28 +2,29 @@ package com.example.projectturbo;
 
 import android.content.Context;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-public class SectionsPagerAdapterHP extends FragmentPagerAdapter {
+
+
+
+public class SectionsPagerAdapterT extends FragmentPagerAdapter {
+
     @StringRes
     private static final int[] TAB_TITLES = new int[]{
-            R.string.one,
-            R.string.two,
-            R.string.three,
-            R.string.four,
-            R.string.five,
-            R.string.six,
-
-
+            R.string.Temples_one,
+            R.string.Temples_two,
+            R.string.Temples_three,
+            R.string.Temples_four,
+            R.string.Temples_five
     };
+
     private final Context mContext;
 
-    public SectionsPagerAdapterHP(Context context, FragmentManager fm) {
+    public SectionsPagerAdapterT(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }
@@ -31,23 +32,22 @@ public class SectionsPagerAdapterHP extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         Fragment fragment = null;
-        switch (position)
-        {
-            case 0:fragment=new vishrambag_wada();
+        switch (position) {
+            case 0:
+                fragment = new GupchupGanpati();
                 break;
-            case 1:fragment=new shaniwar_wada();
+            case 1:
+                fragment = new ParvatiTemple();
                 break;
-            case 2:fragment=new lal_mahal();
+            case 2:
+                fragment = new Pataleshwar();
                 break;
-            case 3:fragment=new nana_wada();
+            case 3:
+                fragment = new Trishunda();
                 break;
-            case 4:fragment=new shitole_wada();
+            case 4:
+                fragment = new Vishnu();
                 break;
-            case 5:fragment=new bhuleshwar_temple();
-                break;
-
-
-
         }
         return fragment;
     }
@@ -60,7 +60,6 @@ public class SectionsPagerAdapterHP extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-
-        return 6;
+        return 5;
     }
 }

@@ -1,14 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".vishrambag_wada">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
 
-</FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/autour_one"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="VishramBag Wada"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/vishrambag_wada"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="@font/audiowide"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Built in the year of 1811 by Peshwa Baji Rao the second,
+Vishrambaug Wada is a three storied Peshwa mansion, which
+still captivate everyone with its historical richness which
+ it symbolizes now. Situated in Sadashiv Peth, at the intersection
+ of Bajirao Road and Laxmi Road, this wada, although in neglect state,
+ does display an excellence of architecture.
+
+The entrance is also magnificent with its carved pillars
+which are made up of teak-wood, still standing strong.
+The Vishrambaug Wada stands majestically amidst the hustle
+bustle of a busy market. Its cypress-shaped columns, decorated
+ceilings, stone floor and teak gallery on both the sides of entrance
+take you to a glorious era of Bajirao. On the first floor of the building,
+you will find a huge hall, darbar, with intricately carved ceilings,
+grand chandeliers along with teakwood pillars with exquisite carvings.
+Its magnificent teak balcony, where visitors are not allowed now,
+is said to the place from where Bajirao's musicians used to perform."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/vishrambag_wada1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="
+
+
+
+A part of the wada is open for public visit, with the rest of the
+part being used as offices. Although just a few parts are seen, this
+place is worth exploring. It gives you a glimpse into the grandeur of
+Bajirao era in Maharashtra. The impeccable fineness with which it was
+constructed is something worth remembering and admiring. After the British
+take over, and the decline of Peshwa rule, Vishrambaug Wada was used a jail.
+It was also used to house the Pune Municipal Corporation office,
+from the year of 1930 to 1958.
+
+
+
+"
+
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="
+
+
+
+
+Currently, a number of Government offices operate from Vishrambaug Wada.
+A considerable section of it is also used at the post office.
+There is also a handicraft shop by SMILE (Savitri Marketing Institution for Ladies Empowerment)
+inside the Wada complex."
+
+            ></TextView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GupchupGanpati">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/autour_one"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="GUPCHUP GANAPATI TEMPLE"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/gp1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/autour_one"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="\t\tGupchup Ganpati Devasthan Pati."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="There are many small and big temples to visit in Pune city. You can also see some ancient temples in Pune, but during the Shiva period and
+You can also see Peshwa temples. We saw such a beautiful temple in Shaniwar Peth in Pune in North Peshwa
+Gets. This temple is called 'Varadamurti Devasthan'. People around this Ganapati are known as 'Gupchup Ganapati'.
+When you go from Shaniwarwada to Onka O Reshwar, on the right hand side you come across a police outpost.
+Nearby are some of the oldest and most famous ghats, one of which is 'Nene Ghat'.
+We turned around and saw in front of us a stone window entrance with 'Gupchup Ganpati Mandir i.e. Shri Varad Ganpati Devasthan'."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/gp2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="This temple is located in Shaniwar Pethe. The beautiful stone frame of this temple would have gone inside through the entrance of Dindi Darwaza
+Inside, you can see porches on both sides. From here go down three stone steps and enter a small beautiful courtyard to the left
+You can see the beautiful Ganapati temple facing north. There is also a house next to this temple. Want to see this temple
+If so, you can visit from 7 am to 12 noon and from 5 pm to 9 pm. The temple has been maintained by 'Dixit' for the last three generations.
+The family has.
+The idol of Varadamurti Ganapati in this temple is ‘Shri. It was prepared by Moreshwar Raoji Dixit on Saturday, February 12, 1892 at Shaniwar Peth.
+The temple was built by Mr. Gupchup, a forest engineer who lived near Chinchwad at the time of its establishment.
+As he offered this temple to the initiates, this Ganapati will get the name 'Gupchup Ganapati'"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/gp3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="While constructing a very beautiful and fully wooden pavilion, ‘Mr.
+Fine wood was brought and the entire wooden pavilion was built in I.S. Built in 1894. In this wooden assembly hall you will find the famous painter Shri Raja
+There you can see frames of pictures drawn by Ravi Varma. Two storey hall, high wooden ceiling, tall wooden pillars as well
+The latticed entrance to the tomb is just as beautiful today as it was then. The entire temple is built of wood. As well as in the auditorium
+We also get to see the rare lamp pots and chandeliers now."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/gp4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="There is a quadrangular idol of 'Shri Varad Ganapati' in the gabhara of the temple. Although the original idol of 'Shri Ganapati' is about 9 inches high, now on that idol
+You can see that her height has increased due to the application of vermiculite. The idol of 'Shri Varad Ganapati' is quadrilateral
+The hand is in Abhayamudra and in the lower right hand we see Modak. We also have Ganpati's Sondson on this Modak
+Can be seen. You can see the weapons in both the upper arms of the idol. The idol does not have a built-in crown.
+There is also a small rat to the left of the statue. To the left of the original idol are two marble idols of Lord Ganesha.
+
+The temple is surrounded by temples and the summit is in good condition. Another major feature of this temple is
+A very old shami tree, which is dear to Ganapati, is on the circumambulation route. The fallen leaves are also used here without climbing this shami tree.
+Due to the importance of the Shami tree, this tree is definitely a feature of the temple. Shami Ganesha means Ganapati under the Shami tree
+Worship is fruitful. Nowadays, you can see the rare Shami tree in the premises of this Ganapati.
+Many people still have faith in 'Shri Varad Ganpati'. Annasaheb Patwardhan, Lokmanya Tilak for the darshan of this Ganapati
+They used to come for darshan. While the trial of Ta E Maharaj was going on, Lokmanya Tilak came to know about this 'Shri Varad Ganapati'.
+It is said. The temple was not damaged in the floods of 1961, even though the temple was under water."/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/gp5"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="In the month of Shri Varad Ganapati, daily Panchamrut Puja, in the month of Magh, the birth of Ganesha and the month of Bhadrapad are celebrated with great enthusiasm.
+During the Bhadrapad and Magh festivals, ‘Shri Varad Ganpatis’ is planted with vermiculite. These are beautiful wooden halls and stone pavilions as well as shami trees
+The beautiful temple cost makes you fall in love. This beautiful temple located in a very crowded place in Pune is always worth visiting
+Because of the silence. The temple of ‘Shri Varad Ganapatiche’ in North Peshwa is definitely a unique temple in Pune due to its style of construction.
+"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

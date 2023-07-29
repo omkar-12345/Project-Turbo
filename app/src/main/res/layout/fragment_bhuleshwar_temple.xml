@@ -1,14 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".bhuleshwar_temple">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
 
-</FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/autour_one"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="Bhuleshwar Temple"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/bhuleshwar1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/audiowide"
+            android:textSize="18sp"
+            android:text="
+
+Dedicated to Lord Shiva, Bhuleshwar is an ancient Hindu temple located around 50 kilometres from Pune.
+ This 13th Century temple boasts of a beautiful architecture along with intriguing and interesting carvings.
+Declared a protected monument, there is a quirky fact about the temple- if you offer a box
+of sweets to the Shiv Ling, sometimes; one or more of the sweets disappear, as if the lord
+has accepted your offerings!
+
+"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="
+
+Other contact number is +91 9975601144.
+It is an active place of worship hence, please maintain the tranquillity of the place.
+Wearing conservative clothing is recommended.
+Don’t forget to remove your footwear outside the temple premises
+
+"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Bus stop at Yawat\n
+Bus stop at Saswad\n
+Renting a car is recommended.\n
+Bhuleshwar Temple Address: Bhuleshwar Road, Pune, Maharashtra 412104, India \n
+Bhuleshwar Temple Contact Number: +91-9860792003\n
+Bhuleshwar Temple Timing: 06:00 am - 09:00 pm \n
+Best time to visit Bhuleshwar Temple(preferred time): 08:00 am - 05:00 pm\n
+Time required to visit Bhuleshwar Temple: 01:00 Hrs \n
+
+
+
+
+"
+
+            ></TextView>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

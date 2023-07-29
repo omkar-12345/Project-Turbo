@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Trishunda">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/autour_one"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="TRISHUNDA GANPATI TEMPLE"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/tr1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Artistic Sculpture Temple 'Trishund Ganpati' in Pune
+
+There are many beautiful temples in Maharashtra. The uniqueness of Maharashtra is the ancient temples located in many small and large villages in the region of these temples
+Indicate. These ancient temples in Maharashtra can be seen in many small and big villages. These temples tell the history of these villages
+Even today, they tell their ancient history to the visiting devotees and preserve the footsteps of history as well as the culture.
+Helps to sustain. One of such old temples is a beautiful temple adorned with beautiful sculptures situated in the heart of Pune city
+Is.
+Pune is known as the cultural capital of Maharashtra as well as the city of temples. This is in the Pune area
+There are many small and big Raule. You can see some of these temples which are very special.
+A historical Sikh 'Trishund Ganpati' temple in Pune with a coveted work done all over the place and preserving the identity of 17th century.
+Pethe is still standing tall in Bharwasti.
+Even though Trishund Ganpati Mandir is located in Pune, it is still not familiar to most people. This beautiful temple in North Peshwa is like a treasure trove of sculptures.
+These ornate sculptures carved on the exterior of the temple and the distinctive three-pronged idol of Ganesha illuminate our eyes. Like you
+The entrance to the Trishund Ganapati temple is decorated in such a beautiful way that we can see a beautiful cave.
+Is done.
+"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="650sp"
+            android:src="@drawable/tr2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Bhairav's sculpture"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="If you want to visit the Trishund Temple, take the road from the new bridge to the Kamala Nehru Hospital, past the Sattoti police station.
+At the crossroads of the road, turning right at this crossroads, Trishund takes us directly to the front of the Ganapati temple and stands. Trustworthy
+This sculptural temple captivates our minds. The surrounding buildings in the vicinity of this temple obstruct the beauty of the temple
+Bring. Although there are buildings very close to the temple, the temple of Trishund Ganapati is covered, but the structure of this entire temple is
+Seems to stand out from the crowd."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="650sp"
+            android:src="@drawable/tr3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Krishna on the temple."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The shoe of the temple which is tall all over the man and the east facing temple standing on it is really beautiful. Pune Municipal Corporation on this jotya one
+Information board is erected. When you look at the exterior of the temple, some of the sculptures literally mark you. One of these
+Here is a description of the situation at that time when you saw the sculpture of a rhinoceros being held by a British soldier with a gun.
+As can be seen from the characteristic sculpture. The description in the sculpture is second to none.
+It has been pointed out that the East India Company became the ruler of Bengal and Assam under its leadership. Similar methods
+You can see the same sculpture on the right side wall.
+"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/tr4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Sculpture of the Battle of Plassey."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="In these sculptures, you can see the chains attached to the rhinoceros, which are very finely carved. As well as both
+Elephants fighting each other are carved in the lower side sculpture. This elephant is the symbol of power in Maharashtra. In the above sculpture
+The British costume guns are very well carved. This whole sculpture tells us the history of many contemporary things."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/tr5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Bhairava Crafts."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The gatekeepers are carved at the entrance of Trishund Ganapati. The two pillars on the side of the gatekeeper are very beautifully carved
+The bells on the pillars and the Ghat-Pallava sculptures on them are breathtaking. Also the sculptures in the corners of the temple
+Fills the eye. A Ganesha bar is carved on the entrance and a beautiful idol of Ganesha is carved on it. On two sides of this Ganeshpatti
+Gajalaxmi with two elephants is beautifully carved. This sculpture catches your eye.
+At the top of this Gajalaxmi sculpture we see the remnant of Vishnu carved. This remnant carved on the side of Vishnu's Mahirapi
+We see monkeys and parrots very characteristic and finely carved. On top of these sculptures you will find Dashavatar, Yaksha as well
+Shemales are also seen. The carvings on the top in this way are eye-catching.
+You get to see."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/tr6"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The gatekeeper at the temple."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Carved like a cave, this temple captivates the mind. Some of the sculptures in this temple are worth seeing
+This is the form of Lingodbhav and in this sculpture Shiva appears in the form of a fire pillar.
+Attempting unsuccessfully to find it, the story appears to be engraved on the back of the Yika temple. A masculine figure is carved in this temple
+There are two women around her and this beautiful erotic sculpture attracts attention"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/tr7"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Sculptures with lingodbhav form."/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/tr8"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Nataraja Crafts."/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The construction of this beautiful temple was started by Gosavi Bhimgirji from Dhamapur village in Indore. Completed in 1754 in full stone
+The door of this temple is facing east and it is seen that Rajasthani style architecture has been used for the construction of the temple.
+Peshwas
+
+Built in this period, this beautiful temple is built entirely of stone.
+Can't see The assembly hall of the temple is also beautifully constructed. A small space will be carved out of the meeting tent
+You can see two inscriptions on the arch inside the temple. The inscriptions are as follows: -
+
+Punyanagari Puri
+|| Shri Ganeshay Nam: || Shri ||
+|| Sarasvatya nam: || Shriguru ||
+|| Dakshinamurtaye nam: || sa ||
+|| Samvat 1801 and Nripashali
+|| Vahan Shake 1676 Bhavana
+|| I will pay the annual fee
+|| Soumyavasare Shubhavela ||
+|| Yaan asya sthane shri mahaka ||
+|| L Rameshwar Pratishtitam Su ||
+|| Tishtitamastu || Mr. Devdutt ||
+|| This place is auspicious Bhavatu Sriras
+
+The meaning of the inscription is as follows: -
+This temple belongs to Rameshwar Shiva and it was established on Vikram Samvat 1801 i.e. 20th November 1754.
+You get to see what is said.
+"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/tr9"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Stones inside the temple"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The meaning of the inscription is as follows: -
+|| Shri Gurudev ||
+|| Dutt ||
+|| Shri Ganeshay Nam: Mahesha ||
+|| Traparo Dev Mahimno Naap ||
+|| Ra Stuti: || Aghoratraparo ||
+|| Mantro nasti tatvan guru: param
+|| Jayanti Mangala | Black gentleman
+|| Kali Kapalini || Durga
+|| Forgiveness Shiva Dhatri Swaha
+|| Swadha namostu te || All Mang
+|| L mangalye shive sarvarthasa
+|| Push || Sharanye Trimbake Gau
+|| Ri Narayani Namostu te ||
+|| Yatra Yogeshwar: Kritsano Yatra Pa
+|| Rtho Dhanurdhar: || तत्र श्रीर्विजयो
+|| भूतिर्धृवा नी नीतिर्मतिर्मम ||
+
+There is also a Persian inscription in this temple. The Persian inscription is as follows: -
+
+1) e makan gurudevadat
+2) The date of Fukra is 7th
+3) Shahar Jukad Roz Chahar Shabdeh
+4) Sanah 1167 Tashmir Namud Shud
+
+The meaning of the inscription is as follows: -
+This house belongs to Fakir Gurudev Dutt and you can see the date 26th August 1754 in it. These inscriptions are still in good condition today
+You can read the letters on them."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/tr10"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Temple chamber."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="We do not see any carvings on the outside of the Trishund Ganapati temple. To the west and north of the temple
+You get to see beautiful temples. In this Devakoshtha we see 'Nataraja's idol' and in the other Devakoshtha we see 'Lingodbhav'
+You can see the 'Rupa' as well as the idol of 'Chaturbhuj Bhairav' in the temple to the west of the temple. Of the temple
+The celebrities in the threshold are very beautifully carved
+"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/tr11"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/audiowide"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Sabhamandap Dwarashakha."/>
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/tr12"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Sculpture of Lord Shiva on the door frame"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The idol of Ganesha in the center of the temple is very beautiful. The features of this idol are:
+This beautiful idol mounted is spectacular. This idol is in full swing. Riddhi is also shown sitting in this idol. Or
+The idol of Ganesha is shown with three proboscis and one proboscis is seen touching the Modakpatras, the other proboscis is seen rolling on the abdomen and the third proboscis is seen.
+You can see that it is on Riddhi's chin. This beautiful idol of Ganesha has six arms and holds an ax in the upper left hand
+When you look at the lower right hand, you can see that you are holding a modakpatra.
+You can see the curb in the right hand, the loop in the middle left hand, and the lower left hand in the left thigh.
+You can see the support of the seated Riddhi. Such a beautiful idol of Ganesha is literally captivating"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/tr13"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Ganeshpatti of the temple"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Another feature of the Trishund Ganapati temple is the basement under the idol of this Trishund Ganapati. Shri Dattaguru Gosavi in ​​the basement of this temple
+He is buried. Also, when this Ganesha idol is anointed, the water of this idol falls on this Samadhi. Also the main feature of this basement
+This means that there is a spring of living water in this basement. Water from this spring is stored in this basement for 12 months of the year. This basement is about 5 meters
+Is deep. This basement is never open on any other day. This beautiful Ganesha
+In the temple, you can see Ganesha instruments carved in the back wall of the idol"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/tr14"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Trishund Ganpati and Vishnu in the back."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="This place is very beautiful and the sculptures are adorned. You should definitely take care of it.
+Characteristic temples are very rare to be found in Maharashtra. This heritage of this historical Trishund temple is shared by the people of Pune and outside
+Definitely worth a visit"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/tr15"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Gajwal sculpture."/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vishnu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/autour_one"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="SHESHSHAYI VISHNU TEMPLE"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/sh5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="@font/audiowide"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Unknown 'Sheshashai Vishnu Temple' at Narayan Pethe in Pune
+
+As Pune is considered to be the home of learning, Pune is also famous for its various temples, hence the city of Pune is known as the 'City of Temples'.
+Is also everywhere. The names of such temples in the city of Pune are also interesting to find, but in the city of this temple
+A beautiful and unique 'Seshashai Vishnu's' beautiful temple in the center of Pune.
+Gets.
+If you want to see this unfamiliar temple of 'Sheshashai Vishnu' in Pune, you have to cross 'Appa Balwant' square and start on Kelkar road from there to Ramanbagh
+On your way to the intersection, turn left at HDFC. At the bank where the Narayan Peth branch is located, recently on the left side you will find 'Shri Sheshashai'
+You can see the sign 'Temple' at the top. Another murder near the temple is the Shrikrushna Brass Band shop next to it
+You can go inside this temple.
+
+'Shri Sheshashai Vishnu Temple"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/sh2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="This temple inside an old castle in Narayan Petheti really raises the suspicion that we are really in the heart of Pune.
+What a peace there is to experience. As you enter through the castle door, you also see a bar on the right
+Even today it is used by the locals. Going straight from there, you can see in front of the temple in the bush.
+As you enter through the temple door, you see a samadhi. The Chauthara of this Samadhi is marble on its head
+You get to see Shivling. This Samadhi belongs to Keshav Narayan Damle alias Sachchidanand Swami. इ.स. In 1906 by Keshavrao Damle
+He went to Kashi and retired. In 1910, he performed Sanjivan Samadhi in this temple."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/sh3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="The 'barrier' inside the castle
+
+Seeing this Samadhi, on the front side, you can see a beautiful idol of 'Sheshashai Vishnu' in a wooden temple. This idol is made of metal
+The main feature of 'Sheshashai Vishnu' is that this idol is 'Padmanabha'. The idol 'Padmanabha' is a long-stemmed lotus from Vishnu's bembi and
+In that lotus, you can see a small idol of Brahma with four mouths and two hands. Another one of these idols
+The important feature is that the idols of Brahma as well as the lotus can also be made into accessories.
+If you look closely at the idol of 'Sheshashayi Vishnu' in the temple, you will see a mace in his right lower hand. Also the upper right hand
+Below the neck is a support for Do Cala. Also Vishnu has a conch in his left upper hand and left lower hand on his thigh
+You can see it. Also Vishnu's right foot is on Lakshmi's lap and Vishnu's wife Lakshmi is shown pressing Vishnu's foot. Or
+Lakshmi's hairstyles and costumes and ornaments in the idol seem to be of Peshwa period."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/sh4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="There is an idol of Vishnu in the assembly hall of the temple and in the big temple in front
+
+This Samadhi belongs to Keshav Narayan Damle alias Sachchidanand Swami
+
+If you want to see such a beautiful 'Sheshshayi Vishnu' idol, then you must see this temple in Narayan Pethe. The management of this temple is with the trustees
+The present condition of the temple is not very good. There is no staff for the temple because the temple does not have that much income. Want to see this temple
+If so, you have to go between 10 am and 10.30 am.
+Is. We get to see this idol and temple while the householder named 'Vaze' is worshiping here. It is located in the center of Pune
+The metal 'Sheshshayi Vishnu' idol in this temple is definitely worth visiting.
+
+The main feature of 'Sheshashai Vishnu' is that this idol is 'Padmanabha'."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/sh5"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

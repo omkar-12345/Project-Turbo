@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParvatiTemple">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/autour_one"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="24sp"
+            android:text="PARVATI TEMPLE"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="550sp"
+            android:src="@drawable/pv1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="Parvati is a hill southeast of Pune in Maharashtra. The name Tekdis Parvati is derived from the name of Goddess Parvatai. It is visible from many parts of Pune.
+Its head is about 640 meters (2100 feet) above sea level. You can reach here by climbing about 103 steps."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/pv2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="These steps are magnificent
+It ends near Naubatkhana. At its head are Devdeveshwar temple and temples of some other deities.
+Nanasaheb Peshwa, the Prime Minister of the Maratha Empire, took land from Taware Patil and built the Vadeveshwar Temple."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/pv3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:text="April 23, 2006 The temple was erected in 1749. On the hill are monuments of Nanasaheb Peshwa, Peshwa Museum, ancient caves at the foot.
+
+Apart from the main temple of Devdeveshwar, there are temples of gods like Kartikeya, Vishnu, Vitthal-Rukmini etc. on the hill. Of these, buildings like Kartikswamy Temple, Sri Vishnu Temple, Home School etc. were built after Devdeveshwar Temple. The death of Nanasaheb Peshwa, who was exhausted due to the heavy loss of Marathas in the third battle of Panipat, took place in June. The main temple is built in modern Hindu style. Its top is high and pointed and is gilded with gold. There are four small temples in the four corners of the square sitting area in the temple area, dedicated to the Sun God (southeast), Ganesha (southwest), Ambabai (northwest) and Vishnu (northeast). In 1766, Madhavrao Peshwa developed this Shiv Panchayat which consists of four small temples and one main temple. The temple has metal idols of Lord Shankar, Parvati and Ganesha. The three idols were originally made of gold in 1749; It was stolen in 1932 and replaced by another metal statue. To the west of the main temple is the temple of Lord Kartik Swami. Women are barred from entering there.
+"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/pv4"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:src="@drawable/pv5"/>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

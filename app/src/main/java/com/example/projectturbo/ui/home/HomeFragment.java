@@ -42,6 +42,14 @@ public class HomeFragment extends Fragment {
                 NavHostFragment.findNavController(HomeFragment.this).navigate(R.id.home_historybtn_to_history_list);
             }
         });
+        culturebtn = root.findViewById(R.id.culture);
+        culturebtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to culture list
+                NavHostFragment.findNavController(HomeFragment.this).navigate(R.id.culture_to_culture_fragment);
+            }
+        });
         return root;
     }
 

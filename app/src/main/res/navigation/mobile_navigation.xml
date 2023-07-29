@@ -13,6 +13,9 @@
         <action
             android:id="@+id/home_historybtn_to_history_list"
             app:destination="@id/history_list" />
+        <action
+            android:id="@+id/culture_to_culture_fragment"
+            app:destination="@id/culture2" />
     </fragment>
 
     <fragment
@@ -46,6 +49,9 @@
         <action
             android:id="@+id/historical_places_to_historical_fragment"
             app:destination="@id/historical_places" />
+        <action
+            android:id="@+id/temples_to_temples_fragment"
+            app:destination="@id/temples2" />
 
     </fragment>
     <fragment
@@ -71,6 +77,27 @@
     <fragment
         android:id="@+id/historical_places"
         android:name="com.example.projectturbo.historical_places"
-        android:label="fragment_historical_places"
+        android:label="HISTORICAL PLACES"
         tools:layout="@layout/fragment_historical_places" />
+    <fragment
+        android:id="@+id/temples2"
+        android:name="com.example.projectturbo.temples"
+        android:label="fragment_temples"
+        tools:layout="@layout/fragment_temples" />
+    <fragment
+        android:id="@+id/culture2"
+        android:name="com.example.projectturbo.culture"
+        android:label="fragment_culture"
+        tools:layout="@layout/fragment_culture" >
+        <action
+            android:id="@+id/introduction_to_introduction_fragment"
+            app:destination="@id/introduction_culture" />
+    </fragment>
+    <fragment
+        android:id="@+id/introduction_culture"
+        android:name="com.example.projectturbo.introduction_culture"
+        android:label="fragment_introduction_culture"
+        tools:layout="@layout/fragment_introduction_culture" >
+
+    </fragment>
 </navigation>
