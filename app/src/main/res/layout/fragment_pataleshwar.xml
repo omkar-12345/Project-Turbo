@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Pataleshwar">
+    tools:context=".Pataleshwar"
+    android:padding="15dp"
+    android:background="@drawable/gradient">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -11,13 +13,16 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/autour_one"
-            android:textStyle="bold"
             android:layout_marginTop="20sp"
+            android:fontFamily="@font/autour_one"
+            android:gravity="center"
+            android:text="PATALESHWAR TEMPLE"
             android:textSize="24sp"
-            android:text="PATALESHWAR TEMPLE"/>
+            android:paddingBottom="15dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
 
         <ImageView
             android:layout_width="match_parent"
@@ -67,6 +72,7 @@ The covered part of the Pataleshwar site is a large nearly square mandapa, a bit
             android:textStyle="bold"
             android:layout_marginTop="20sp"
             android:textSize="18sp"
+            android:paddingBottom="20dp"
             android:text="A set of steps, flanked with two couchant stone tigers carved in-situ, provide entry into the covered mandapa. Between the third row and the fourth row of pillars, in the front of the sanctums, is another small Nandi hewn in-situ, thus re-affirming that this was a Hindu Shaivism site from its origins. The three sanctum caves total to about 39 feet long and 27.5 feet deep. The central shrine has a rock-cut Mahadeva Panchalesvara linga (original), while the cella on its side have space for statues.The original statues are lost, and were likely of Brahma on one side, Vishnu on the other.Sometime before the mid-19th century, these were reclaimed with the addition of a Parvati statue and a Ganesha statue.
 
 The caves have remains and traces of reliefs, most of which is now lost. Of what can be identified, include Saptamatrikas (Shaktism), Gajalakshmi, Tripurantaka, Anantasayin (Vaishnavism) and Lingodbhava."/>

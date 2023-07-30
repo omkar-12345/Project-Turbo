@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:padding="15dp"
     android:layout_height="match_parent"
     tools:context=".Vishnu">
 
@@ -11,13 +12,15 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/autour_one"
-            android:textStyle="bold"
             android:layout_marginTop="20sp"
+            android:fontFamily="@font/autour_one"
+            android:text="SHESHSHAYI VISHNU TEMPLE"
             android:textSize="24sp"
-            android:text="SHESHSHAYI VISHNU TEMPLE"/>
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textStyle="bold" />
 
         <ImageView
             android:layout_width="match_parent"
@@ -31,6 +34,7 @@
             android:fontFamily="@font/audiowide"
             android:layout_marginTop="20sp"
             android:textSize="18sp"
+            android:paddingBottom="20dp"
             android:text="Unknown 'Sheshashai Vishnu Temple' at Narayan Pethe in Pune
 
 As Pune is considered to be the home of learning, Pune is also famous for its various temples, hence the city of Pune is known as the 'City of Temples'.

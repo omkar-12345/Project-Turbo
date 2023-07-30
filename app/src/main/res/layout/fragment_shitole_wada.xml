@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="15dp"
     tools:context=".shitole_wada">
 
 
@@ -35,6 +36,7 @@
             android:textStyle="bold"
             android:layout_marginTop="20sp"
             android:textSize="18sp"
+            android:paddingBottom="20dp"
             android:text="The original owner of this historic building is Raja Rajendra Shitol Raja,
 a descendant of the Sisodia dynasty. These clans came from the north and became
 local about twelve hundred years ago, and for many centuries they had uninterrupted

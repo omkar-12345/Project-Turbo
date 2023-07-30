@@ -3,7 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".nana_wada">
+    tools:context=".nana_wada"
+    android:padding="15dp"
+    android:background="@color/yellow"
+    android:backgroundTintMode="multiply">
 
 
     <LinearLayout
@@ -21,6 +24,7 @@
             android:fontFamily="@font/autour_one"
             android:layout_marginTop="20sp"
             android:textSize="24sp"
+            android:textColor="@color/black"
             android:text="Nana Wada"/>
 
         <ImageView

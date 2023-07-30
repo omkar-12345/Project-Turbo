@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".peths_one">
+    tools:context=".peths_one"
+    android:background="@color/material_dynamic_primary60">
 
    <LinearLayout
        android:layout_width="match_parent"
@@ -15,9 +16,12 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:layout_marginTop="20sp"
-           android:fontFamily="@font/autour_one"
-           android:text="Name of the Peth Who founded the Peth and Year in which it was founded"
-           android:textSize="24sp" />
+           android:fontFamily="@font/anton"
+           android:text="Name of the Peths Who founded the Peth and Year in which it was founded"
+           android:textSize="24sp"
+           android:textColor="@color/cardview_dark_background"
+           android:textAlignment="center"
+           />
        <ImageView
            android:layout_width="match_parent"
            android:layout_height="350sp"
@@ -48,7 +52,8 @@ The name is derived from the temple of Bhavani Mata\n
 In memory of Mahatma Phule after 1818 by the British government\n
 \nSince Navi Peth was newly established by the British government after 1818"
            android:textSize="18sp"
-           android:textStyle="bold" />
+           android:textStyle="bold"
+           android:textColor="@color/white"/>
 
        <ImageView
            android:layout_width="match_parent"

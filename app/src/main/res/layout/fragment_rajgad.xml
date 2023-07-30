@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".rajgad">
+    tools:context=".rajgad"
+    android:background="@color/yellow">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,6 +22,7 @@
             android:textStyle="bold"
             android:layout_marginTop="20sp"
             android:textSize="24sp"
+            android:textColor="@color/black"
             android:text="RajGad"/>
 
         <ImageView
@@ -35,6 +37,7 @@
             android:textStyle="bold"
             android:layout_marginBottom="20sp"
             android:textSize="18sp"
+            android:textColor="@color/red"
             android:text="If you are a trekking enthusiast, you have to hike up the Rajgad Fort while visiting Pune.
 Located around 60 kilometres from Pune, the historical fort offers stunning views of the Sahyadri Mountain range.
 With a moderate difficulty level, some points of interest on the fort are:
@@ -58,6 +61,7 @@ With a moderate difficulty level, some points of interest on the fort are:
             android:textStyle="bold"
             android:layout_marginTop="20sp"
             android:textSize="18sp"
+            android:textColor="@color/red"
             android:text="
             \nNasarapur ST Stand
 \nBhor Bus Stand
