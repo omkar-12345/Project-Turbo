@@ -1,34 +1,26 @@
 package com.example.projectturbo;
 
 import android.content.Context;
-import androidx.annotation.NonNull;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.example.projectturbo.R;
-import com.example.projectturbo.peths_one;
-import com.example.projectturbo.peths_two;
-
-
-/**
- * A [FragmentPagerAdapter] that returns a fragment corresponding to
- * one of the sections/tabs/pages.
- */
-public class SectionsPagerAdapter extends FragmentPagerAdapter {
-
+public class SectionsPagerAdapterFandC extends FragmentPagerAdapter {
     @StringRes
     private static final int[] TAB_TITLES = new int[]{
-            R.string.history_tab_1,
-            R.string.history_tab_2
+            R.string.ganesh_chaturti,
+            R.string.Sawai_Gandharva_Sangeet_Mahotsav,
+            R.string.Shivaji_Maharaj_Jayant,
+            R.string.Music_and_Dance
 
     };
     private final Context mContext;
 
-    public SectionsPagerAdapter(Context context, FragmentManager fm) {
+    public SectionsPagerAdapterFandC(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }
@@ -38,10 +30,16 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         Fragment fragment = null;
         switch (position)
         {
-            case 0:fragment=new peths_one();
+            case 0:fragment=new ganesh_chaturti();
                 break;
-            case 1:fragment=new peths_two();
+            case 1:fragment=new Sawai_Gandharva_Sangeet_Mahotsav();
                 break;
+            case 2:fragment=new Shivaji_Maharaj_Jayant();
+                break;
+                case 3:fragment= new Music_and_Dance();
+                break;
+
+
         }
         return fragment;
     }
@@ -55,6 +53,6 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
 
-        return 2;
+        return 4;
     }
 }

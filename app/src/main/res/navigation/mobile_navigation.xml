@@ -92,6 +92,12 @@
         <action
             android:id="@+id/introduction_to_introduction_fragment"
             app:destination="@id/introduction_culture" />
+        <action
+            android:id="@+id/hist_and_heri_to_fragment"
+            app:destination="@id/history_and_heritage" />
+        <action
+            android:id="@+id/hist_and_festival_and_culture"
+            app:destination="@id/festival_and_culture" />
     </fragment>
     <fragment
         android:id="@+id/introduction_culture"
@@ -100,4 +106,14 @@
         tools:layout="@layout/fragment_introduction_culture" >
 
     </fragment>
+    <fragment
+        android:id="@+id/history_and_heritage"
+        android:name="com.example.projectturbo.history_and_heritage"
+        android:label="HISTORY AND HERITAGE"
+        tools:layout="@layout/fragment_history_and_heritage" />
+    <fragment
+        android:id="@+id/festival_and_culture"
+        android:name="com.example.projectturbo.festival_and_culture"
+        android:label="Festival And Culture"
+        tools:layout="@layout/fragment_festival_and_culture" />
 </navigation>
