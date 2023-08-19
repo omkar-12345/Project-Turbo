@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#b2b2c6"
+    android:background="#deb887"
     tools:context=".Music_and_Dance">
 
 

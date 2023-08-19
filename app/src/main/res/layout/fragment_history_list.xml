@@ -51,7 +51,7 @@
                         android:id="@+id/card1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:fontFamily="@font/aclonica"
+                        android:fontFamily="@font/yatra"
                         android:gravity="center"
                         android:text="Peths in \nPune"
                         android:textColor="#94716B"
@@ -102,7 +102,7 @@
                         android:id="@+id/card2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:fontFamily="@font/aclonica"
+                        android:fontFamily="@font/yatra"
                         android:gravity="center"
                         android:text="Forts"
                         android:textColor="#94716B"
@@ -139,10 +139,10 @@
                     app:cardCornerRadius="25dp">
 
                     <ImageView
-                        android:layout_width="134dp"
+                        android:layout_width="122dp"
                         android:layout_height="89dp"
                         android:layout_gravity="left"
-                        android:src="@drawable/museum_png" />
+                        android:src="@drawable/museum" />
 
 
                 </androidx.cardview.widget.CardView>
@@ -158,7 +158,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="30dp"
-                        android:fontFamily="@font/aclonica"
+                        android:fontFamily="@font/yatra"
                         android:gravity="center"
                         android:text="Museum"
                         android:textColor="#94716B"
@@ -199,7 +199,7 @@
                         android:layout_width="134dp"
                         android:layout_height="89dp"
                         android:layout_gravity="left"
-                        android:src="@drawable/hills_png" />
+                        android:src="@drawable/hills" />
 
 
                 </androidx.cardview.widget.CardView>
@@ -215,7 +215,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="30dp"
-                        android:fontFamily="@font/aclonica"
+                        android:fontFamily="@font/yatra"
                         android:gravity="center"
                         android:text="Hills"
                         android:textColor="#94716B"
@@ -252,7 +252,7 @@
                         android:layout_width="134dp"
                         android:layout_height="89dp"
                         android:layout_gravity="left"
-                        android:src="@drawable/histoplace_png" />
+                        android:src="@drawable/histo1" />
 
 
                 </androidx.cardview.widget.CardView>
@@ -267,7 +267,7 @@
                         android:id="@+id/card6"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:fontFamily="@font/aclonica"
+                        android:fontFamily="@font/yatra"
                         android:gravity="center"
                         android:text="Historical\nPlaces"
                         android:textColor="#94716B"
@@ -324,7 +324,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="30dp"
-                        android:fontFamily="@font/aclonica"
+                        android:fontFamily="@font/yatra"
                         android:gravity="center"
                         android:text="Temples"
                         android:textColor="#94716B"

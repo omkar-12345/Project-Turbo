@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#b2b2c6"
+    android:background="#deb887"
     tools:context=".Shivaji_Maharaj_Jayant">
 
     <LinearLayout
