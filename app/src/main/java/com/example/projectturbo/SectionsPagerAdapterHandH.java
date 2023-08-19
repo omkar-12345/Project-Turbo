@@ -1,34 +1,28 @@
 package com.example.projectturbo;
 
 import android.content.Context;
-import androidx.annotation.NonNull;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.annotation.StringRes;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.example.projectturbo.R;
-import com.example.projectturbo.peths_one;
-import com.example.projectturbo.peths_two;
-
-
-/**
- * A [FragmentPagerAdapter] that returns a fragment corresponding to
- * one of the sections/tabs/pages.
- */
-public class SectionsPagerAdapter extends FragmentPagerAdapter {
-
-    @StringRes
+public class SectionsPagerAdapterHandH extends FragmentPagerAdapter {
+    @NonNull
     private static final int[] TAB_TITLES = new int[]{
-            R.string.history_tab_1,
-            R.string.history_tab_2
+            R.string.HH_one,
+            R.string.HH_secound,
+            R.string.HH_third,
+            R.string.HH_four,
+            R.string.HH_five,
+            R.string.HH_six,
+
 
     };
     private final Context mContext;
 
-    public SectionsPagerAdapter(Context context, FragmentManager fm) {
+    public SectionsPagerAdapterHandH(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }
@@ -38,10 +32,19 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         Fragment fragment = null;
         switch (position)
         {
-            case 0:fragment=new peths_one();
+            case 0:fragment=new ancient_and_medival();
                 break;
-            case 1:fragment=new peths_two();
+            case 1:fragment=new Maratha_Empire();
                 break;
+            case 2:fragment=new Peshwa_Era();
+                break;
+            case 3:fragment=new Agarkar_Wada();
+                break;
+            case 4:fragment=new Educational_Legacy();
+                break;
+            case 5:fragment=new Freedom_Struggle();
+                break;
+
         }
         return fragment;
     }
@@ -55,6 +58,6 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
 
-        return 2;
+        return 6;
     }
 }

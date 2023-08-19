@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.Navigation;
 import androidx.navigation.fragment.NavHostFragment;
 
 import android.view.LayoutInflater;
@@ -14,7 +15,7 @@ import android.view.ViewGroup;
 
 public class culture extends Fragment {
 
-    CardView introduction;
+    CardView history_and_heri,festival;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -23,12 +24,24 @@ public class culture extends Fragment {
         // Inflate the layout for this fragment
         View root = inflater.inflate(R.layout.fragment_culture, container, false);
 
-        introduction = root.findViewById(R.id.introduction);
-        introduction.setOnClickListener(new View.OnClickListener() {
+
+
+        history_and_heri = root.findViewById(R.id.his_and_hes);
+        history_and_heri.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Navigate to the introduction fragment
-                NavHostFragment.findNavController(culture.this).navigate(R.id.introduction_to_introduction_fragment);
+                // Navigate to the history and heritage fragment
+                NavHostFragment.findNavController(culture.this).navigate(R.id.hist_and_heri_to_fragment);
+
+            }
+        });
+
+        festival = root.findViewById(R.id.festival);
+        festival.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                NavHostFragment.findNavController(culture.this).navigate(R.id.hist_and_festival_and_culture);
+
             }
         });
 
