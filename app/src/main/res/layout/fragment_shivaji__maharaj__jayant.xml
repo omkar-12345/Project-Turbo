@@ -1,14 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#b2b2c6"
     tools:context=".Shivaji_Maharaj_Jayant">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
 
-</FrameLayout>
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/yatra"
+            android:gravity="center"
+            android:text="Shivaji Maharaj Jayant"
+            android:textColor="#344747"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Shivaji Jayanti, also known as Shivaji Maharaj Jayanti or Chhatrapati Shivaji Maharaj Jayanti, is an annual observance in Maharashtra, India, that commemorates the birth anniversary of Chhatrapati Shivaji Maharaj. Chhatrapati Shivaji Maharaj (1630–1680) was a legendary Maratha warrior king who established the Maratha Empire in western India, particularly in Maharashtra, during the 17th century. His reign is celebrated for its valor, administration, and efforts to promote local governance."
+            android:layout_marginBottom="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Shivaji Jayanti is celebrated on the 19th of February each year. This date is based on the Hindu calendar, which may vary slightly in the Gregorian calendar."
+            android:layout_marginBottom="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="The day is observed with great enthusiasm and reverence in Maharashtra, particularly in Mumbai and Pune. The state government, various organizations, educational institutions, and communities arrange special events, processions, cultural programs, and historical exhibitions to honor Shivaji Maharaj's legacy."
+            android:layout_marginBottom="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Colorful processions and parades are organized, where people dress up as Shivaji Maharaj, his soldiers, and other historical figures. These processions often include traditional music, dance performances, and reenactments of key events from Shivaji's life."
+            android:layout_marginBottom="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text=" Cultural events such as traditional folk dances, classical music performances, and historical plays are organized to showcase the rich cultural heritage of Maharashtra and to honor Shivaji Maharaj's memory."
+            android:layout_marginBottom="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Shivaji Jayanti is not just a regional celebration but a reminder of the indomitable spirit of a leader who stood for principles like freedom, justice, and self-governance. It serves as a source of inspiration and a symbol of pride for the people of Maharashtra and beyond."
+            android:layout_marginBottom="20sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

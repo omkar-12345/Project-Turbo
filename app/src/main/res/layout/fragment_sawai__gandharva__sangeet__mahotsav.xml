@@ -1,14 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#b2b2c6"
     tools:context=".Sawai_Gandharva_Sangeet_Mahotsav">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#b2b2c6"
+        android:padding="20dp">
 
-</FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sawai Gandharva Sangeet Mahotsav"
+            android:fontFamily="@font/yatra"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#344747"
+            android:gravity="center"
+            android:layout_marginBottom="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="The Sawai Gandharva Sangeet Mahotsav is an annual Indian classical music festival held in Pune, Maharashtra, India. It is one of the most prestigious and renowned music festivals in the country, dedicated to the memory of the great Hindustani classical vocalist Pandit Sawai Gandharva (1886–1952)."
+            android:layout_marginBottom="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text=" The festival was initiated by Pt. Bhimsen Joshi, one of the most celebrated Indian classical vocalists and a disciple of Sawai Gandharva. Pt. Bhimsen Joshi started the festival in 1953 as a tribute to his guru, Sawai Gandharva, and to promote Indian classical music, particularly Hindustani classical vocal music."
+            android:layout_marginBottom="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="The Sawai Gandharva Sangeet Mahotsav is held at the Ramanbaug Grounds in Pune. Over the years, the festival has gained a reputation for its open-air performances and the unique ambience it provides."
+            android:layout_marginBottom="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="The festival attracts some of the most eminent and talented artists from the Indian classical music scene, including vocalists, instrumentalists, and percussionists. The performances encompass different genres within Indian classical music, such as Khayal, Thumri, Dhrupad, and more."
+            android:layout_marginBottom="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Over the years, the Sawai Gandharva Sangeet Mahotsav has grown in stature and has become a symbol of reverence for Indian classical music. It serves as a platform for artists to showcase their talents, exchange ideas, and pay homage to the rich heritage of classical music."
+            android:layout_marginBottom="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="The Sawai Gandharva Sangeet Mahotsav continues to be a significant event in the cultural landscape of India, promoting the deep-rooted traditions of Indian classical music while also fostering a sense of unity and appreciation among music enthusiasts."
+            android:layout_marginBottom="20sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -10,57 +10,71 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:background="#FFF2CD"
         android:padding="20dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Peshwa Era"
+            android:fontFamily="@font/yatra"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#e4731e"
             android:layout_gravity="center"
             android:layout_marginBottom="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
             android:text="@string/peshwa_one"
             android:layout_marginBottom="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
             android:text="@string/peshwa_two"
             android:layout_marginBottom="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
             android:text="@string/peshwa_three"
             android:layout_marginBottom="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
             android:text="@string/peshwa_four"
             android:layout_marginBottom="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
             android:text="@string/peshwa_five"
             android:layout_marginBottom="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
             android:text="@string/peshwa_six"
             android:layout_marginBottom="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
             android:text="@string/peshwa_seven"
             android:layout_marginBottom="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
             android:text="@string/peshwa_eight"
             android:layout_marginBottom="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
             android:text="@string/peshwa_nine"
             android:layout_marginBottom="20sp"/>
 

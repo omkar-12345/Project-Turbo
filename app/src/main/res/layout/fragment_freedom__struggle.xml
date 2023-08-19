@@ -8,67 +8,83 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFF2CD"
         android:orientation="vertical"
         android:padding="20dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/freedom_one"
             android:layout_gravity="center"
-            android:layout_marginBottom="20sp"/>
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/yatra"
+            android:text="@string/freedom_one"
+            android:textColor="#e4731e"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/free_one"
-            android:layout_marginBottom="20sp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/freedom_two"
-            android:layout_marginBottom="20sp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/freedom_three"
-            android:layout_marginBottom="20sp"/>
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:text="@string/free_one" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/freedom_four"
-            android:layout_marginBottom="20sp"/>
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:text="@string/freedom_two" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/freedom_five"
-            android:layout_marginBottom="20sp"/>
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:text="@string/freedom_three" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/freedom_six"
-            android:layout_marginBottom="20sp"/>
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:text="@string/freedom_four" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/freedom_seven"
-            android:layout_marginBottom="20sp"/>
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:text="@string/freedom_five" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/freedom_nine"
-            android:layout_marginBottom="20sp"/>
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:text="@string/freedom_six" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/freedom_ten"
-            android:layout_marginBottom="20sp"/>
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:text="@string/freedom_seven" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:text="@string/freedom_nine" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:text="@string/freedom_ten" />
 
 
     </LinearLayout>

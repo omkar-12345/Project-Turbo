@@ -7,7 +7,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".culture">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="14dp"
             app:cardCornerRadius="20dp"
-            android:backgroundTint="#E6BBAE"
+            android:backgroundTint="#E4D4BB"
             app:cardElevation="11dp"
             app:contentPadding="20dp">
 
@@ -37,11 +36,11 @@
                         android:layout_width="134dp"
                         android:layout_height="89dp"
                         android:layout_gravity="left"
-                        android:src="@drawable/shaniwarwada" />
+                        android:src="@drawable/shaniwarwada"
+                        android:contentDescription="TODO" />
 
 
                 </androidx.cardview.widget.CardView>
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -50,21 +49,16 @@
                     <TextView
                         android:id="@+id/card1"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="26dp"
-                        android:fontFamily="@font/aclonica"
+                        android:layout_height="89dp"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/yatra"
                         android:gravity="center"
                         android:text="History and Heritage"
                         android:textColor="#C2185B"
-                        android:textSize="25sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
-
-
-
                 </LinearLayout>
-
-
 
 
             </LinearLayout>
@@ -109,22 +103,17 @@
                     <TextView
                         android:id="@+id/card2"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="25dp"
-                        android:fontFamily="@font/aclonica"
+                        android:layout_height="89dp"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/yatra"
                         android:gravity="center"
                         android:text="Festivals and Celebrations"
                         android:textColor="#C2185B"
-                        android:textSize="25sp"
-                        android:textStyle="bold" />
-
-
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
 
 
                 </LinearLayout>
-
-
-
 
             </LinearLayout>
 
@@ -137,6 +126,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="14dp"
             app:cardCornerRadius="20dp"
+            android:backgroundTint="#E4D4BB"
             app:cardElevation="4dp"
             app:contentPadding="20dp">
 
@@ -154,12 +144,9 @@
                         android:layout_width="134dp"
                         android:layout_height="89dp"
                         android:layout_gravity="left"
-                        android:src="@drawable/lifestyle" />
-
+                        android:src="@drawable/edu_sppu" />
 
                 </androidx.cardview.widget.CardView>
-
-
 
 
                 <LinearLayout
@@ -170,16 +157,14 @@
                     <TextView
                         android:id="@+id/card4"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="30dp"
-                        android:fontFamily="@font/aclonica"
+                        android:layout_height="77dp"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/yatra"
                         android:gravity="center"
                         android:text="Language and Literature"
                         android:textColor="#C2185B"
-                        android:textSize="25sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
-
-
 
 
                 </LinearLayout>
@@ -201,6 +186,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="14dp"
             app:cardCornerRadius="20dp"
+            android:backgroundTint="#E4D4BB"
             app:cardElevation="4dp"
             app:contentPadding="20dp">
 
@@ -218,7 +204,7 @@
                         android:layout_width="134dp"
                         android:layout_height="89dp"
                         android:layout_gravity="left"
-                        android:src="@drawable/lifestyle" />
+                        android:src="@drawable/edu_sppu" />
 
 
                 </androidx.cardview.widget.CardView>
@@ -234,23 +220,17 @@
                     <TextView
                         android:id="@+id/card5"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="30dp"
-                        android:fontFamily="@font/aclonica"
+                        android:layout_height="68dp"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/yatra"
                         android:gravity="center"
                         android:text="Education and Intellectual Hub"
                         android:textColor="#C2185B"
-                        android:textSize="25sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
 
-
-
                 </LinearLayout>
-
-
-
-
 
 
             </LinearLayout>
@@ -264,6 +244,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="14dp"
             app:cardCornerRadius="20dp"
+            android:backgroundTint="#E4D4BB"
             app:cardElevation="4dp"
             app:contentPadding="20dp">
 
@@ -281,12 +262,10 @@
                         android:layout_width="134dp"
                         android:layout_height="89dp"
                         android:layout_gravity="left"
-                        android:src="@drawable/lifestyle" />
+                        android:src="@drawable/arts1" />
 
 
                 </androidx.cardview.widget.CardView>
-
-
 
 
                 <LinearLayout
@@ -297,16 +276,14 @@
                     <TextView
                         android:id="@+id/card6"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="26dp"
-                        android:fontFamily="@font/aclonica"
+                        android:layout_height="78dp"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/yatra"
                         android:gravity="center"
                         android:text="Performing Arts"
                         android:textColor="#C2185B"
-                        android:textSize="25sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
-
-
 
 
                 </LinearLayout>
@@ -323,6 +300,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="14dp"
             app:cardCornerRadius="20dp"
+            android:backgroundTint="#E4D4BB"
             app:cardElevation="4dp"
             app:contentPadding="20dp">
 
@@ -340,12 +318,10 @@
                         android:layout_width="134dp"
                         android:layout_height="89dp"
                         android:layout_gravity="left"
-                        android:src="@drawable/lifestyle" />
+                        android:src="@drawable/food2" />
 
 
                 </androidx.cardview.widget.CardView>
-
-
 
 
                 <LinearLayout
@@ -355,21 +331,16 @@
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="26dp"
-                        android:fontFamily="@font/aclonica"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="0dp"
+                        android:fontFamily="@font/yatra"
                         android:gravity="center"
                         android:text="Cuisine"
                         android:textColor="#C2185B"
-                        android:textSize="25sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
-
-
-
                 </LinearLayout>
-
-
 
             </LinearLayout>
 
@@ -383,6 +354,7 @@
             android:layout_margin="14dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="4dp"
+            android:backgroundTint="#E4D4BB"
             app:contentPadding="20dp">
 
             <LinearLayout
@@ -405,8 +377,6 @@
                 </androidx.cardview.widget.CardView>
 
 
-
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -416,38 +386,20 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="26dp"
-                        android:fontFamily="@font/aclonica"
+                        android:fontFamily="@font/yatra"
                         android:gravity="center"
                         android:text="Social and Environmental"
                         android:textColor="#C2185B"
-                        android:textSize="25sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
 
                 </LinearLayout>
 
-
-
             </LinearLayout>
-
 
         </androidx.cardview.widget.CardView>
 
-
-
-
-
-
-
-
-
-
-
-
     </LinearLayout>
-
-
-
-
 
 </ScrollView>

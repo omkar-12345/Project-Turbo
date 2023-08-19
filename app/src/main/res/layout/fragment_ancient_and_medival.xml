@@ -9,99 +9,117 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#FFF2CD"
         android:orientation="vertical"
         android:padding="20dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ancient and Medieval Period"
             android:layout_gravity="center"
-            android:layout_marginBottom="20sp">
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/yatra"
+            android:text="Ancient and Medieval Period"
+            android:textColor="#715f33"
+            android:textSize="24dp"
+            android:textStyle="bold">
 
         </TextView>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
             android:text="Ancient Period:"
-            android:layout_marginBottom="20sp">
+            android:textColor="@color/black"
+            android:textSize="16dp">
 
         </TextView>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/A_and_M_one"
-            android:layout_marginBottom="20sp">
-
-        </TextView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/A_and_M_one"
-            android:layout_marginBottom="20sp">
-
-        </TextView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/A_and_M_two"
-            android:layout_marginBottom="20sp">
-
-        </TextView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/A_and_M_three"
-            android:layout_marginBottom="20sp">
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:text="@string/A_and_M_one">
 
         </TextView>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/A_and_M_four"
-            android:layout_marginBottom="20sp">
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:text="@string/A_and_M_two">
 
         </TextView>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/A_and_M_five"
-            android:layout_marginBottom="20sp">
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:text="@string/A_and_M_three">
 
         </TextView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/A_and_M_six"
-            android:layout_marginBottom="20sp">
-        </TextView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/A_and_M_seven"
-            android:layout_marginBottom="20sp">
-
-        </TextView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/A_and_M_eight"
-            android:layout_marginBottom="20sp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/A_and_M_nine"
-            android:layout_marginBottom="20sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/A_and_M_ten"
-            android:layout_marginBottom="20sp"/>
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="@string/A_and_M_four">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:text="@string/A_and_M_five">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:text="@string/A_and_M_six"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:text="@string/A_and_M_seven">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:text="@string/A_and_M_eight" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:text="@string/A_and_M_nine" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/gotu"
+            android:text="@string/A_and_M_ten" />
     </LinearLayout>
 
 </ScrollView>

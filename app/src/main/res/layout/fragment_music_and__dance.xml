@@ -1,14 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#b2b2c6"
     tools:context=".Music_and_Dance">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/yatra"
+            android:gravity="center"
+            android:text="Music and Dance"
+            android:textColor="#344747"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Certainly! Music and dance play a significant role in the celebrations of Shivaji Jayanti. They are integral components of the cultural events and performances that take place to honor Chhatrapati Shivaji Maharaj's legacy. Here's how music and dance are intertwined with the celebration:"
+            android:layout_marginBottom="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Folk Music and Dance Performances:"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text=" Traditional Marathi folk music and dance forms are an integral part of Shivaji Jayanti celebrations. Dhol-tasha (percussion instrument) groups, Lavani (traditional folk dance), and Tamasha (folk theater) performances bring the festivities to life. These vibrant performances often depict stories from Shivaji Maharaj's life, his battles, and his achievements."
+            android:layout_marginBottom="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Classical Music and Dance Tributes:"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Classical music and dance performances pay homage to Shivaji Maharaj through artistic renditions. Renowned classical musicians and dancers present pieces inspired by historical events and personalities associated with Shivaji's era. These performances often evoke the valor, heroism, and cultural essence of the Maratha dynasty."
+            android:layout_marginBottom="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:textColor="@color/black"
+            android:text="Historical Dance Dramas:"
+            android:layout_marginBottom="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Elaborate dance dramas and ballets are staged to retell the stories of Shivaji Maharaj's life. These performances combine various dance forms, costumes, and music to recreate significant events and moments from his reign."
+            android:layout_marginBottom="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:textColor="@color/black"
+            android:text="Devotional Music and Bhajans:"
+            android:layout_marginBottom="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text=" Devotional music and bhajans dedicated to Chhatrapati Shivaji Maharaj are also performed. These songs not only celebrate his accomplishments as a warrior king but also highlight his dedication to justice and governance."
+            android:layout_marginBottom="20sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

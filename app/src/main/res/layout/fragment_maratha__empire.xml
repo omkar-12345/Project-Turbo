@@ -9,40 +9,50 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:background="#FFF2CD"
         android:padding="20dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/maratha"
+            android:fontFamily="@font/yatra"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#e4731e"
             android:layout_gravity="center"
             android:layout_marginBottom="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
             android:text="@string/maratha_one"
             android:layout_marginBottom="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
             android:text="@string/maratha_two"
             android:layout_gravity="center"
             android:layout_marginBottom="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
             android:text="@string/maratha_three"
             android:layout_gravity="center"
             android:layout_marginBottom="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
             android:text="@string/maratha_four"
             android:layout_gravity="center"
             android:layout_marginBottom="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
             android:text="@string/maratha_five"
             android:layout_gravity="center"
             android:layout_marginBottom="20sp"/>
