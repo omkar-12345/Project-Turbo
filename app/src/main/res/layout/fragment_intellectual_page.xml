@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E4B2"
+    tools:context=".intellectual_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/yatra"
+            android:gravity="center"
+            android:text="Intellectuals of Pune"
+            android:textColor="#e4731e"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune, being a prominent educational and cultural hub in India, has been home to many renowned intellectuals, scholars, and personalities across various fields. While I can't provide an exhaustive list, here are a few notable intellectuals associated with Pune:"/>
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/vk_rajwade"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vishwanath Kashinath Rajwade"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/yatra"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="A historian, scholar, and researcher known for his contributions to Marathi literature and history."
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/dr_bhimrao_ambedkar"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. B. R. Ambedkar"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/yatra"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="An architect of the Indian Constitution, social reformer, and advocate for the rights of marginalized communities. He spent significant time in Pune during his academic pursuits."
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/mahadev_govind_ranade"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M. G. Ranade"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/yatra"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text=" An Indian scholar, social reformer, and founding member of the Indian National Congress. He made significant contributions to economic theory and social reform."
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cv_raman"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. V. Raman"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/yatra"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="The Nobel Prize-winning physicist, known for the discovery of the Raman Effect. He served as the Director of the Indian Institute of Science (IISc) in Bangalore, which has strong connections to Pune's academic community."
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/p_l_deshpande"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P. L. Deshpande"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/yatra"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text=" A prominent Marathi writer, humorist, and playwright. His works continue to be celebrated in Marathi literature."
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/v_k_sarabai"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vikram Sarabhai"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/yatra"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="An Indian scientist often regarded as the father of the Indian space program. His work laid the foundation for the Indian Space Research Organisation (ISRO)."
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/vasant_gowarikar"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vasant Gowarikar"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/yatra"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="A scientist and engineer known for his contributions to space and atmospheric research. He was a key figure in India's Mars Orbiter Mission (Mangalyaan)."
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/gopal_krish_gokhale"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gopal Krishna Gokhale"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/yatra"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="A social reformer, educator, and leader of the Indian National Congress during the pre-independence era. He played a significant role in the Indian freedom movement."
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/vijay_kelkar"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vijay Kelkar"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/yatra"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="An economist and policy expert known for his contributions to economic policy and reforms in India."
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/jayant_narlikar"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jayant Narlikar"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/yatra"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text=" An astrophysicist and cosmologist who has made significant contributions to our understanding of the universe. He is associated with the Inter-University Centre for Astronomy and Astrophysics (IUCAA) in Pune."
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</ScrollView>

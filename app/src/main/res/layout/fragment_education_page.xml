@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E4B2"
+    tools:context=".education_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/yatra"
+            android:gravity="center"
+            android:text="Education of Pune"
+            android:textColor="#e4731e"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune, located in the state of Maharashtra, India, is renowned for its educational institutions and academic environment. It is often referred to as the due to the numerous educational institutions that are present in the city.&#10; Pune has long been a major educational and cultural centre;&#10; former prime minister Jawaharlal Nehru referred to it as the “Oxford and Cambridge of India.” &#10;The city houses some 30 constituent and affiliated colleges of the University of Pune (1948); the Bhandarkar Oriental Research Institute (1917) is renowned for research and instruction in the Sanskrit and Prakrit languages and has more than 20,000 ancient manuscripts.&#10; Pune is also the headquarters of the southern command of the Indian army, with the Khadakwasla Academy located nearby." />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/yatra"
+            android:text="Universities and Higher Education Institutions"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune is home to several prestigious universities and colleges that offer a wide range of academic programs in various fields.&#10;Some of the notable institutions include:&#10;&#10;* University of Pune (Savitribai Phule Pune University): One of the oldest and most well-known universities in India, offering a diverse range of undergraduate, postgraduate, and doctoral programs across various disciplines.&#10;* Indian Institute of Science Education and Research (IISER) Pune: A premier institute for scientific education and research, focusing on natural sciences.&#10;* Fergusson College: A prominent autonomous college offering arts, science, and commerce programs.&#10;* Symbiosis International University: Known for its various constituent colleges and courses, including management, law, design, and more.&#10;* Film and Television Institute of India (FTII): A renowned institute for film and television education.&#10;* National Institute of Construction Management and Research (NICMAR): Specializes in education and research in the field of construction and related areas."
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/educationalDiversityTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/yatra"
+            android:text="Educational Diversity"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/educationalDiversityContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/gotu"
+            android:text="Pune offers a diverse range of educational opportunities, including programs in engineering, medicine, arts, sciences, commerce, law, design, social sciences, and more."
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/researchInnovationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/yatra"
+            android:text="Research and Innovation"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/researchInnovationContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/gotu"
+            android:text="Many institutions in Pune actively engage in research and innovation. Pune has research centers, labs, and institutes dedicated to various fields, contributing to advancements in technology and knowledge."
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/languageCultureTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/yatra"
+            android:text="Language and Culture"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/languageCultureContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/gotu"
+            android:text="Pune's academic environment fosters the study of various languages and cultures. It has institutes dedicated to teaching languages such as French, German, Japanese, and others."
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/studentPopulationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/yatra"
+            android:text="Student Population"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/studentPopulationContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/gotu"
+            android:text="The city has a significant student population due to the presence of numerous educational institutions. This diversity fosters a vibrant academic and social community."
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/careerOpportunitiesTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/yatra"
+            android:text="Career Opportunities"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/careerOpportunitiesContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/gotu"
+            android:text="Pune's thriving IT industry, automobile sector, and other industries provide ample job opportunities for graduates, attracting students from various regions."
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</ScrollView>

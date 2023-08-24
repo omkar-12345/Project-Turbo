@@ -20,7 +20,7 @@
             android:layout_marginBottom="20dp"
             android:fontFamily="@font/yatra"
             android:text="Ancient and Medieval Period"
-            android:textColor="#715f33"
+            android:textColor="#e4731e"
             android:textSize="24dp"
             android:textStyle="bold">
 

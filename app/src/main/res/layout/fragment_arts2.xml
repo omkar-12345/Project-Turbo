@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E5A3"
+    tools:context=".arts2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/yatra"
+            android:gravity="center"
+            android:text="Arts of Pune"
+            android:textColor="#EA5C2B"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/class_music" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:padding="16dp"
+            android:text="Visual Arts"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Art Galleries: Pune boasts several art galleries and exhibition spaces that showcase contemporary and traditional artworks by local and national artists." />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cinema_film" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:padding="16dp"
+            android:text="Cinema and Film"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Film Institutes: Pune is home to the prestigious Film and Television Institute of India (FTII), which offers courses in filmmaking, acting, and related disciplines." />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/culture_fest" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:padding="16dp"
+            android:text="Cultural Festivals"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Ganesh Chaturthi: Pune is known for its grand celebrations of the Ganesh Chaturthi festival, featuring artistic and creative idols, processions, and cultural performances." />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/museum1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:padding="16dp"
+            android:text="Museums and Cultural Centers"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Raja Dinkar Kelkar Museum: This museum houses a diverse collection of traditional Indian artifacts, including sculptures, textiles, and musical instruments." />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Tribal Cultural Museum: Pune also has a museum dedicated to showcasing the art and culture of India's tribal communities." />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/creative_workshop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:padding="16dp"
+            android:text="Creative Workshops and Classes"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune offers a range of workshops and classes in arts and crafts, including pottery, painting, and other creative activities." />
+
+    </LinearLayout>
+
+</ScrollView>

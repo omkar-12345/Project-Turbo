@@ -38,8 +38,6 @@ public class SectionsPagerAdapterFandC extends FragmentPagerAdapter {
                 break;
                 case 3:fragment= new Music_and_Dance();
                 break;
-
-
         }
         return fragment;
     }

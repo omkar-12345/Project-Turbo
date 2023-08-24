@@ -35,7 +35,7 @@
         android:label="History"
         tools:layout="@layout/fragment_history_list" >
         <action
-            android:id="@+id/peths_cardView_to_peths_fragment"
+            android:id="@+id/action_history_list_to_peths_in_pune"
             app:destination="@id/peths_in_pune" />
         <action
             android:id="@+id/forts_cardView_to_forts_fragment"
@@ -53,11 +53,12 @@
             android:id="@+id/temples_to_temples_fragment"
             app:destination="@id/temples2" />
 
+
     </fragment>
     <fragment
         android:id="@+id/peths_in_pune"
         android:name="com.example.projectturbo.peths_in_pune"
-        android:label="PETHS IN PUNE"
+        android:label="fragment_peths_in_pune"
         tools:layout="@layout/fragment_peths_in_pune" />
     <fragment
         android:id="@+id/forts"
@@ -98,6 +99,24 @@
         <action
             android:id="@+id/hist_and_festival_and_culture"
             app:destination="@id/festival_and_culture" />
+        <action
+            android:id="@+id/action_culture_to_lang_literature"
+            app:destination="@id/lang_literature" />
+        <action
+            android:id="@+id/action_culture2_to_education_hub"
+            app:destination="@id/education_hub"
+            />
+        <action
+            android:id="@+id/action_culture2_to_performing_arts"
+            app:destination="@id/performing_arts"
+           />
+        <action
+            android:id="@+id/action_culture2_to_cuisine"
+            app:destination="@id/cuisine"
+           />
+        <action
+            android:id="@+id/action_culture2_to_social_env"
+            app:destination="@id/social_env" />
     </fragment>
     <fragment
         android:id="@+id/introduction_culture"
@@ -116,4 +135,30 @@
         android:name="com.example.projectturbo.festival_and_culture"
         android:label="Festival And Culture"
         tools:layout="@layout/fragment_festival_and_culture" />
+    <fragment
+        android:id="@+id/lang_literature"
+        android:name="com.example.projectturbo.lang_literature"
+        android:label="fragment_lang_literature"
+        tools:layout="@layout/fragment_lang_literature" />
+    <fragment
+        android:id="@+id/education_hub"
+        android:name="com.example.projectturbo.education_hub"
+        android:label="fragment_education_hub"
+        tools:layout="@layout/fragment_education_hub" />
+    <fragment
+        android:id="@+id/performing_arts"
+        android:name="com.example.projectturbo.performing_arts"
+        android:label="fragment_performing_arts"
+        tools:layout="@layout/fragment_performing_arts" />
+    <fragment
+        android:id="@+id/cuisine"
+        android:name="com.example.projectturbo.cuisine"
+        android:label="fragment_cuisine"
+        tools:layout="@layout/fragment_cuisine" />
+    <fragment
+        android:id="@+id/social_env"
+        android:name="com.example.projectturbo.social_env"
+        android:label="fragment_social_env"
+        tools:layout="@layout/fragment_social_env" />
+
 </navigation>

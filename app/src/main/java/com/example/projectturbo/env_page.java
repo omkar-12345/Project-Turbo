@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link culture_one#newInstance} factory method to
+ * Use the {@link env_page#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class culture_one extends Fragment {
+public class env_page extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +24,7 @@ public class culture_one extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public culture_one() {
+    public env_page() {
         // Required empty public constructor
     }
 
@@ -34,11 +34,11 @@ public class culture_one extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment culture_one.
+     * @return A new instance of fragment env_page.
      */
     // TODO: Rename and change types and number of parameters
-    public static culture_one newInstance(String param1, String param2) {
-        culture_one fragment = new culture_one();
+    public static env_page newInstance(String param1, String param2) {
+        env_page fragment = new env_page();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +59,6 @@ public class culture_one extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_culture_one, container, false);
+        return inflater.inflate(R.layout.fragment_env_page, container, false);
     }
 }

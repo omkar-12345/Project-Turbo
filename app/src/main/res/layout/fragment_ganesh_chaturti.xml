@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#deb887"
+        android:background="#D9F8C4"
         android:padding="20dp">
 
         <TextView
@@ -19,7 +19,7 @@
             android:fontFamily="@font/yatra"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:textColor="#344747"
+            android:textColor="#e4731e"
             android:layout_gravity="center"
             android:layout_marginBottom="20sp"/>
         <TextView

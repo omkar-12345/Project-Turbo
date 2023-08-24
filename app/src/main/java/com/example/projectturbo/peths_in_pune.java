@@ -12,7 +12,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.projectturbo.databinding.FragmentPethsInPuneBinding;
-import com.google.android.material.tabs.TabLayout;
 
 public class peths_in_pune extends Fragment {
 

@@ -25,14 +25,12 @@ public class history_list extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View root = inflater.inflate(R.layout.fragment_history_list, container, false);
-        peths = root.findViewById(R.id.pethsCardView);
 
+        peths = root.findViewById(R.id.pethsCardView);
         peths.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Navigate to the peths fragment
-                NavHostFragment.findNavController(history_list.this).navigate(R.id.peths_cardView_to_peths_fragment);
-
+                NavHostFragment.findNavController(history_list.this).navigate(R.id.action_history_list_to_peths_in_pune);
             }
         });
 

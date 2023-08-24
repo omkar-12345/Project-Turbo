@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF4E9"
+    tools:context=".cuisine1_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/yatra"
+        android:gravity="center"
+        android:text="Cuisine"
+        android:textColor="#EA5C2B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pune, a city in Maharashtra, India, has a rich culinary heritage that reflects the diverse cultures and traditions of the region. Here are some of the prominent cuisines and dishes you can find in Pune &#10;Pune's food scene is a blend of traditional Maharashtrian flavors, along with influences from various parts of India and the world. Exploring the local markets, street food stalls, and restaurants is a delightful way to experience the culinary diversity that Pune has to offer."
+            android:fontFamily="@font/gotu"/>
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Maharashtrian Cuisine"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:fontFamily="@font/gotu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Being in Maharashtra, Pune offers a wide variety of Maharashtrian dishes. Vada Pav (a spicy potato fritter in a bun), Misal Pav (spicy sprouted bean curry with bread), Sabudana Khichdi (tapioca pearls cooked with spices), and Puran Poli (sweet lentil-stuffed flatbread) are some popular options."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="International Cuisine"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="As a cosmopolitan city, Pune also has a diverse range of international cuisines, including Chinese, Italian, Mexican, and more, thanks to the presence of a diverse population and expatriate community."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="South Indian Cuisine"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune offers a variety of South Indian delicacies such as dosas, idlis, vadas, and different types of chutneys and sambars."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Street Food"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune is known for its vibrant street food scene. You'll find stalls and vendors offering items like Pav Bhaji, Pani Puri, Dabeli, and more."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="International Cuisine"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="As a cosmopolitan city, Pune also has a diverse range of international cuisines, including Chinese, Italian, Mexican, and more, thanks to the presence of a diverse population and expatriate community."/>
+
+    </LinearLayout>
+
+</ScrollView>

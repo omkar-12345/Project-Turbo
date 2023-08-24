@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1F5FE"
+    tools:context=".literature_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/yatra"
+            android:gravity="center"
+            android:text="Literature of Pune"
+            android:textColor="#e4731e"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/gotu"
+            android:text="Pune has a rich literary heritage with a history deeply intertwined with Marathi literature. The city has been a significant hub for writers, poets, and literary movements.&#10;Pune, often referred to as the cultural capital of Maharashtra, has a rich and diverse literary heritage that spans centuries. The city has played a pivotal role in shaping Marathi literature, hosting renowned authors, poets, and intellectuals." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:paddingTop="16dp"
+            android:text="Prominent Writers and Poets:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="- Jnanpith Award winners like Kusumagraj and V. S. Khandekar are among the notable literary figures from Pune." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:paddingTop="16dp"
+            android:text="Literary Events and Festivals:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="- Pune hosts various cultural events and festivals that celebrate Marathi literature, theater, music, and art." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="1) Akhil Bharatiya Marathi Sahitya Sammelan:"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="- This is one of the most prestigious literary events in the Marathi literary calendar. Organized annually, it brings together Marathi writers, poets, scholars, and enthusiasts from across Maharashtra and beyond." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="2) Pune International Literary Festival (PILF):"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="- PILF is a major literary festival that showcases literature from around the world. It provides a platform for renowned and emerging authors to engage with readers and discuss their works." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="3) Pune Book Fair:"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="- Organized annually, the Pune Book Fair is a vibrant event that brings together publishers, authors, and readers." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="4) Vacha, Pune International Literary Festival for Women:"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="- Vacha is a unique festival that focuses on women's literature, voices, and experiences." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:paddingTop="16dp"
+            android:text="Marathi Theater:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="- Pune boasts a vibrant Marathi theater scene known for its experimental and socially relevant plays." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:paddingTop="16dp"
+            android:text="Language Diversity:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="- While Marathi is the predominant language, Pune is a diverse city where people also speak Hindi, English, and other languages." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:paddingTop="16dp"
+            android:text="Media and Culture:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="- Pune has local newspapers, magazines, radio stations, and TV channels that contribute to the promotion and usage of the Marathi language in media and entertainment." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:paddingTop="16dp"
+            android:text="Language Preservation Efforts:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="- Various cultural organizations, educational institutions, and language enthusiasts in Pune work toward preserving and promoting Marathi language and culture." />
+
+    </LinearLayout>
+
+</ScrollView>

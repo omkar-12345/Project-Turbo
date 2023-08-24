@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF4E9"
+    tools:context=".social_page">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/yatra"
+        android:gravity="center"
+        android:text="Social life"
+        android:textColor="#EA5C2B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+        <!-- Category 1: Festivals and Events -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/yatra"
+            android:layout_height="wrap_content"
+            android:text="Festivals and Events"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune hosts a variety of cultural festivals and events throughout the year, such as Ganesh Chaturthi, Sawai Gandharva Bhimsen Mahotsav, Pune International Film Festival, and more."/>
+
+        <!-- Category 2: Nightlife -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Nightlife"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune offers a vibrant nightlife scene with pubs, bars, and clubs. Popular areas for nightlife include Koregaon Park and FC Road."/>
+
+        <!-- Category 3: Arts and Entertainment -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arts and Entertainment"
+            android:fontFamily="@font/yatra"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The city has a thriving arts and entertainment scene, including theaters, art galleries, and music venues. Places like Shaniwar Wada and Darshan Museum showcase the historical and cultural aspects of Pune."/>
+
+        <!-- Category 4: Food and Cuisine -->
+        <TextView
+            android:layout_width="match_parent"
+            android:fontFamily="@font/yatra"
+            android:layout_height="wrap_content"
+            android:text="Food and Cuisine"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune's social life is enriched by its diverse culinary scene. The city offers a range of traditional Maharashtrian, North Indian, South Indian, and international cuisines."/>
+
+        <!-- Category 5: Shopping and Markets -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shopping and Markets"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune boasts a range of shopping options, from bustling street markets like Laxmi Road and Fergusson College Road to modern malls like Phoenix Marketcity and Amanora Mall."/>
+
+        <!-- Category 6: Outdoor Activities -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Outdoor Activities"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="The city offers opportunities for outdoor enthusiasts, with spots like Sinhagad Fort, Osho Garden, and Empress Garden for nature lovers and trekkers."/>
+
+        <!-- Category 7: Sports and Recreation -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Sports and Recreation"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:fontFamily="@font/gotu"
+            android:layout_height="wrap_content"
+            android:text="Pune residents are passionate about sports. The city has stadiums and facilities for cricket, football, badminton, and more."/>
+
+        <!-- Category 8: Cultural Heritage -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cultural Heritage"
+            android:fontFamily="@font/yatra"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:fontFamily="@font/gotu"
+            android:layout_height="wrap_content"
+            android:text="Pune's rich cultural heritage is evident in historical sites like Aga Khan Palace, Raja Dinkar Kelkar Museum, and Pataleshwar Cave Temple."/>
+
+        <!-- Category 9: Education and Institutes -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Education and Institutes"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Known as the 'Oxford of the East,' Pune is a hub for education. The city is home to prestigious institutions like Savitribai Phule Pune University and IISER Pune."/>
+
+        <!-- Category 10: Community and Networking -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Community and Networking"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:fontFamily="@font/gotu"
+            android:layout_height="wrap_content"
+            android:text="Pune's social life thrives through various community events, meetups, and networking opportunities. Tech and startup communities are particularly active."/>
+
+        <!-- Category 11: Parks and Recreation -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Parks and Recreation"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune offers numerous parks and recreational spaces, such as Saras Baug, Peshwe Park, and Bund Garden, ideal for relaxation and outdoor activities."/>
+
+        <!-- Category 12: Volunteer and Social Initiatives -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Volunteer and Social Initiatives"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="The city actively engages in volunteer work and social initiatives. NGOs and community groups organize events for social causes and environmental awareness."/>
+
+        <!-- Category 13: Religious Diversity -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Religious Diversity"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune is home to a variety of religious places, including temples, mosques, churches, and gurudwaras, reflecting its diverse cultural fabric."/>
+
+
+    </LinearLayout>
+
+</ScrollView>

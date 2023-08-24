@@ -33,7 +33,6 @@ public class festival_and_culture extends Fragment {
         SectionsPagerAdapterFandC sectionsPagerAdapter = new SectionsPagerAdapterFandC(requireContext(), getChildFragmentManager());
         ViewPager viewPager = binding.viewPager;
         viewPager.setAdapter(sectionsPagerAdapter);
-
         // Set up the TabLayout (optional)
         binding.tabs.setupWithViewPager(viewPager);
     }

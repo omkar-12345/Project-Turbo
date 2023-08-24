@@ -27,7 +27,8 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="350sp"
-            android:src="@drawable/shitole_wada1"/>
+            />
+<!--        android:src="@drawable/shitole_wada1"-->
 
         <TextView
             android:layout_width="wrap_content"

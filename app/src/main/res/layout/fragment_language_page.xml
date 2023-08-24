@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1F5FE"
+    tools:context=".language_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/yatra"
+            android:gravity="center"
+            android:text="Languages of Pune"
+            android:textColor="#e4731e"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Marathi"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Marathi is the official language of Maharashtra and holds significant prominence in Pune. It's widely spoken, used for education, administration, and communication.
+                &#10;Marathi is an Indo-Aryan language spoken predominantly by people in the Indian state of Maharashtra, including the city of Pune. It is one of the 22 officially recognized languages of India and has a rich literary and cultural heritage. Pune is considered one of the major centers for Marathi language, culture, and education." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="Hindi"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Hindi, as the national language of India, is also commonly spoken and understood in Pune. It's used in business, commerce, and communication." />
+
+        <!-- Other language sections can be added here -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/yatra"
+            android:gravity="center"
+            android:text="Linguistic History"
+            android:textColor="#e4731e"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune's rich linguistic history is shaped by its diverse past. From its ancient roots to the modern era, the city's languages have evolved and intertwined." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/yatra"
+            android:text="Ancient Period"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune's history dates back to ancient times. Marathi, a derivative of Maharashtri Prakrit, evolved in the region and gained prominence.&#10;" />
+
+        <!-- Maratha Empire -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/yatra"
+            android:text="Maratha Empire"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="During the Maratha Empire, Pune was the capital, and Marathi gained further significance as the administrative and literary language. Many notable Marathi poets, writers, and scholars emerged during this period." />
+
+        <!-- Colonial Era -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/yatra"
+            android:text="Colonial Era"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune came under British control in the 19th century. English gained importance as British institutions were established. The influence of English continued to grow during the British rule." />
+
+        <!-- Post-Independence -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/yatra"
+            android:text="Post-Independence"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="After India's independence in 1947, Marathi was reaffirmed as the official language of Maharashtra. Pune's educational institutions and cultural activities contributed to the preservation and promotion of Marathi." />
+
+        <!-- Modern Era -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/yatra"
+            android:text="Modern Era"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune's transformation into an educational and IT hub led to an influx of people from various linguistic backgrounds. This diversity further enriched the city's language landscape." />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Historical Significance:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune has a historical connection with Marathi literature and culture. Many prominent Marathi writers, poets, and scholars have hailed from Pune, and the city has played a crucial role in shaping the modern Marathi language and its literary traditions." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Education Hub:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune is known as the 'Oxford of the East' due to its numerous educational institutions, including universities, colleges, and research centers. Marathi is used as a medium of instruction in many of these institutions, contributing to the language's prominence in the city." />
+
+    </LinearLayout>
+
+</ScrollView>

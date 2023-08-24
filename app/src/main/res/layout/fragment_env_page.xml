@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF4E9"
+    tools:context=".env_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/yatra"
+            android:gravity="center"
+            android:text="Environment"
+            android:textColor="#EA5C2B"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Climate"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune has a moderate climate with three distinct seasons - summer, monsoon, and winter. Summers (March to June) are usually hot and dry with temperatures ranging from 25°C to 38°C (77°F to 100°F). Monsoons (June to September) bring heavy rainfall and moderate temperatures. Winters (October to February) are cool and pleasant, with temperatures ranging from 8°C to 20°C (46°F to 68°F)." />
+
+        <!-- Air Quality -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Air Quality"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune's air quality has varied over the years. While it generally has better air quality compared to some other major Indian cities, pollution can still be a concern, especially during certain times of the year. Efforts have been made to improve air quality through initiatives like vehicle emission standards and tree planting." />
+
+        <!-- Green Spaces -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Green Spaces"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune is known for its greenery and has several parks and gardens. The Aga Khan Palace, Saras Baug, Pu La Deshpande Garden, and Empress Garden are some popular spots for relaxation and recreation." />
+
+        <!-- Water Bodies -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Water Bodies"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune is situated near the confluence of the Mula and Mutha rivers. The Mula-Mutha river system has faced pollution issues due to waste dumping and untreated sewage. Efforts are being made to clean up and rejuvenate these rivers." />
+
+        <!-- Biodiversity -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Biodiversity"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="The surrounding areas of Pune have diverse flora and fauna. The Western Ghats, a UNESCO World Heritage Site, are nearby and host rich biodiversity. There are also efforts to conserve and protect the local biodiversity through various conservation initiatives." />
+
+        <!-- Urban Development -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Urban Development"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune has experienced rapid urbanization, especially in terms of IT and real estate. This growth has brought about challenges such as increased traffic congestion and waste management issues. Urban planning and sustainable development are topics of focus." />
+
+        <!-- Waste Management -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Waste Management"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Like many other growing cities, waste management can be a challenge. Pune has been working on waste segregation, recycling, and proper disposal methods to tackle this issue." />
+
+        <!-- Transportation -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Transportation"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune has a well-developed transportation system that includes buses, auto-rickshaws, and ride-sharing services. The Pune Metro project was also in progress to improve intra-city transportation." />
+
+        <!-- Natural Disasters -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Natural Disasters"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune is not prone to major natural disasters like earthquakes or tsunamis. However, heavy monsoon rains can sometimes lead to flooding in low-lying areas." />
+
+        <!-- Sustainability Initiatives -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Sustainability Initiatives"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="The city has shown interest in sustainable practices. Efforts have been made to promote solar energy, rainwater harvesting, and green building concepts." />
+
+    </LinearLayout>
+
+</ScrollView>

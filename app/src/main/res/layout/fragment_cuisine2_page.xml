@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF4E9"
+    tools:context=".cuisine2_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/yatra"
+            android:gravity="center"
+            android:text="Famous Cuisines of Pune"
+            android:textColor="#EA5C2B"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <!-- Cuisine 1: Maharashtrian Cuisine -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Maharashtrian Cuisine"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Being in Maharashtra, Pune offers a wide variety of Maharashtrian dishes. Vada Pav (a spicy potato fritter in a bun), Misal Pav (spicy sprouted bean curry with bread), Sabudana Khichdi (tapioca pearls cooked with spices), and Puran Poli (sweet lentil-stuffed flatbread) are some popular options." />
+
+        <!-- Cuisine 2: Puneri Misal -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Puneri Misal"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="This is a local specialty, which is a spicier version of the traditional Misal Pav. It's made with a spicy curry of sprouted legumes and served with bread or pav." />
+
+        <!-- Cuisine 3: Pune Bakery -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Pune Bakery"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Pune is known for its traditional bakeries that offer a unique blend of Indian and Western baked goods. You'll find items like Shrewsbury biscuits, Mawa Cakes, and a variety of breads." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Bhakri"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Bhakri is a type of flatbread made from millet or sorghum flour. It's a staple in Maharashtrian cuisine and is often served with various curries and chutneys." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Bhakri"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Bhakri is a type of flatbread made from millet or sorghum flour. It's a staple in Maharashtrian cuisine and is often served with various curries and chutneys." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra"
+            android:text="Maharashtrian Thali"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu"
+            android:text="Many restaurants in Pune offer Maharashtrian thali, which is a platter featuring an assortment of traditional Maharashtrian dishes, including vegetables, lentils, rice, bread, and sweets." />
+
+
+    </LinearLayout>
+
+</FrameLayout>

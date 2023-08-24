@@ -127,6 +127,16 @@
     <string name="ganesh_seven">Visarjan (Immersion): On the last day of the festival, the idols are taken in grand processions for immersion in water bodies like rivers, lakes, and the sea. Pune has several immersion points, and the processions are accompanied by dancing, drumming, and chanting.</string>
     <string name="ganesh_eight">Community Involvement: Ganesh Chaturthi brings the community together, fostering a sense of unity and belonging. Many housing societies and neighborhoods organize their own celebrations, creating a lively and festive atmosphere.</string>
     <string name="ganesh_nine">Ganesh Chaturthi in Pune is more than a religious celebration – it\'s a cultural extravaganza that showcases the city\'s creativity, devotion, and love for art. The festival continues to evolve, incorporating modern sensibilities while preserving its traditional essence.</string>
+    <string name="lang_page">Language Page</string>
+    <string name="literature_page">Literature Page</string>
+    <string name="education_page">education page</string>
+    <string name="intellectual_page">intellectual page</string>
 
-
+    <string name="arts1">arts1</string>
+    <string name="arts2">arts2</string>
+    <string name="social_page">social</string>
+    <string name="env_page">envirnment</string>
+    <string name="cuisine1_page">cuisine1</string>
+    <string name="cuisine2_page">cuisine2</string>
+    <string name="social_and_environmental">Social and Environmental</string>
 </resources>

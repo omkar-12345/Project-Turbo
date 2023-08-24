@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#deb887"
+    android:background="#D9F8C4"
     tools:context=".Sawai_Gandharva_Sangeet_Mahotsav">
 
     <LinearLayout
@@ -19,7 +19,7 @@
             android:fontFamily="@font/yatra"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:textColor="#344747"
+            android:textColor="#e4731e"
             android:gravity="center"
             android:layout_marginBottom="20sp"/>
         <TextView
